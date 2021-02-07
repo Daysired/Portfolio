@@ -2,6 +2,7 @@ import './App.css';
 import { Route, Switch } from "react-router-dom"
 import Home from "./screens/Home"
 import About from "./screens/About"
+import Projects from "./screens/Projects"
 import ProjectDetail from "./screens/ProjectDetail"
 import Contact from "./screens/Contact"
 
