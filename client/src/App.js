@@ -1,10 +1,29 @@
 import './App.css';
+import { Route, Switch } from "react-router-dom"
+import Home from "./screens/Home"
+import About from "./screens/About"
+import ProjectDetail from "./screens/ProjectDetail"
+import Contact from "./screens/Contact"
 
 function App() {
   return (
-    <div>
-      
-    </div>
+    <Switch>
+      <Route path='/'>
+        <Home/>
+      </Route>
+      <Route path='/about-me'>
+        <About/>
+      </Route>
+      <Route path='/projects'>
+        <Projects/>
+      </Route>
+      <Route path='/project-detail'>
+        <ProjectDetail/>
+      </Route>
+      <Route path='/contact-me'>
+        <Contact/>
+      </Route>
+    </Switch>
   );
 }
 
