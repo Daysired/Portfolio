@@ -1,0 +1,49 @@
+body {
+  background-image: url('https://i.imgur.com/l7PEbYb.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .home-img {
+  height: 90vh ;
+  width: 96vw;
+} */
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* .home-img {
+    margin-top: 20%;
+    height: 250px ;
+    width: 370px;
+    margin-left: 0px;
+  } */
+
+  body {
+    background-size: 400px 260px;
+    background-color: black;
+  }
+}
+
+@media only screen and (min-device-width: 540px) {
+  body {
+    background-size: 680px 410px;
+    background-color: black;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  body {
+    background-size: 960px 560px;
+    background-color: black;
+  }
+}
+
+@media only screen and (min-width: 1224px) {
+  body {
+    background-size: 1098px 660px;
+    background-color: black;
+  }
+}
