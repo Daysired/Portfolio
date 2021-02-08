@@ -1,0 +1,38 @@
+/* body {
+  background-image: url('https://i.imgur.com/VUKACOn.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+/* body {
+  background-image: url('https://i.imgur.com/PTvFm8L.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+body {
+  background-color: pink;
+}
+ .about-circle h3 {
+   color: white;
+   font-size: 55px;
+ }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  
+}
+
+@media only screen and (min-device-width: 540px) {
+  
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  
+}
+
+@media only screen and (min-width: 1224px) {
+  
+}
