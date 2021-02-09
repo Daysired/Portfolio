@@ -9,7 +9,7 @@ import Contact from "./screens/Contact"
 function App() {
   return (
     <Switch>
-      <Route path='/'>
+      <Route exact path='/'>
         <Home/>
       </Route>
       <Route path='/about-me'>
