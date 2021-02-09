@@ -41,7 +41,7 @@ body{
   margin-left: 50%;
 }
 
-.indicator a {
+.indicator Link {
 	line-height: 1em;
 	display: inline-block;
 	color: white;
