@@ -6,7 +6,7 @@ import About from "./screens/About"
 // import ProjectDetail from "./screens/ProjectDetail"
 // import Contact from "./screens/Contact"
 import React, { useRef } from "react";
-import Nav from "./components/Nav"
+import { Link } from 'react-router-dom';
 
 
 function App() {
@@ -28,13 +28,13 @@ function App() {
   
     <div>
     <nav style={{ position: "fixed", top: "16px", left: "16px" }}>
-      <button onClick={() => scrollTo(homeRef)}>Section 1</button>
-      <br />
-      <button onClick={() => scrollTo(aboutRef)}>Section 2</button>
-      <br />
-      <button onClick={() => scrollTo(projectsRef)}>Section 3</button>
-      <br/>
-      <button onClick={() => scrollTo(contactRef)}>Section 4</button>
+      <Link class="nav-link-home" onClick={() => scrollTo(homeRef)}>Home</Link>
+      
+      <Link class="nav-link" onClick={() => scrollTo(aboutRef)}>About</Link>
+      
+      <Link class="nav-link" onClick={() => scrollTo(projectsRef)}>Projects</Link>
+      
+      <Link class="nav-link" onClick={() => scrollTo(contactRef)}>Contact</Link>
     </nav>
       
     <div ref={homeRef} style={{ height: "100vh", margin: 0 }}>
