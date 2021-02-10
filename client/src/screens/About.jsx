@@ -11,8 +11,9 @@ export default function About() {
       </div>
       <div className="about-container-bottom">
         <p className="about-text">
-          Hi there I’m Daysired (I also go by “Daisy”). 
+          Hi there, I’m Daysired (I also go by “Daisy”). 
           Im an NYC tailor turned software engineer looking to bring my passion and creativity into the tech industry. 
+          From my passion for fashion to my ode to code, I’m always looking for a new challenge and opportunity to showcase my skills and best qualities. 
           As someone who’s always worked in a fast paced environment, quick thinking and creative problem solving have always been my best attributes and I’m excited to bring these qualities and more to my next role.
         </p>
         <a href="https://drive.google.com/file/d/1SEE3ymCmKl3W460fN5uIRvthLakEg6X9/view?usp=sharing">
