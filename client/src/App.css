@@ -24,6 +24,67 @@ nav {
   font-size: 20px;
 }
 
+.pr-circle {
+  height: 22vw ;
+  width: 64vw;
+  margin-top: 5%;
+}
+
+.heroes-villains{
+  height: 15vw ;
+  width: 18vw;
+  margin-top: 12%;
+  border: 2px solid white;
+  margin-left: 35%;
+
+}
+
+.everywhen {
+  height: 15vw ;
+  width: 18vw;
+  margin-top: 12%;
+  border: 2px solid white;
+  margin-left: 5%;
+
+}
+
+.habanero {
+  height: 15vw ;
+  width: 18vw;
+  margin-top: 5%;
+  border: 2px solid white;
+  margin-left: 35%;
+
+}
+
+.in-sequence {
+  height: 15vw ;
+  width: 18vw;
+  margin-top: 5%;
+  border: 2px solid white;
+  margin-left: 5%;
+
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+
+}
+
+.projects-circle {
+  grid-column: 1 / span 8;
+  grid-row: 1; 
+  padding-top: 15%; 
+  z-index: 1
+}
+
+.projects-imgs {
+  grid-column: 4 / -1;
+  grid-row: 1;
+}
+
 
 @media only screen and (max-device-width: 280px) {
  

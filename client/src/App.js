@@ -1,5 +1,4 @@
 import "./App.css";
-import { Route, Switch } from "react-router-dom"
 import Home from "./screens/Home"
 import About from "./screens/About"
 // import Projects from "./screens/Projects"
@@ -15,6 +14,10 @@ function App() {
   const aboutRef = useRef(null);
   const projectsRef = useRef(null);
   const contactRef = useRef(null);
+  const heroesRef = useRef(null);
+  const everywhenRef = useRef(null);
+  const habaneroRef = useRef(null);
+  const insequenceRef = useRef(null);
 
   const scrollTo = (ref) => {
     window.scroll({
@@ -44,31 +47,35 @@ function App() {
      <About/>
     </div>
     <div ref={projectsRef} style={{ height: "100vh", margin: 0 }}>
-        Section 3
+        <div className="projects-container">
+          <div className="projects-circle">
+            <img className="pr-circle" src="https://i.imgur.com/lPQRp7n.png" />
+          </div>
+          <div className="projects-imgs">
+            <Link class="hero-ref" onClick={() => scrollTo(heroesRef)}><img className="heroes-villains" src="https://i.imgur.com/qW3jBXa.png" /></Link>
+            <Link className="everywhen-ref" onClick={() => scrollTo(everywhenRef)}><img className="everywhen" src="https://i.imgur.com/oUsBCPN.png" /></Link>
+            <Link className="habanero-ref" onClick={() => scrollTo(habaneroRef)}><img className="habanero" src="https://i.imgur.com/af3pNkH.png" /></Link>
+            <Link className="insequence-ref" onClick={() => scrollTo(insequenceRef)}><img className="in-sequence" src="https://i.imgur.com/0yAPhxX.png" /></Link>
+          </div>
+       </div>
+    </div>
+    <div ref={heroesRef} style={{ height: "100vh", margin: 0 }}>
+        Section 4
+    </div>
+    <div ref={everywhenRef} style={{ height: "100vh", margin: 0 }}>
+        Section 5
+    </div>
+    <div ref={habaneroRef} style={{ height: "100vh", margin: 0 }}>
+        Section 6
+    </div>
+    <div ref={insequenceRef} style={{ height: "100vh", margin: 0 }}>
+      Section 7
     </div>
     <div ref={contactRef} style={{ height: "100vh", margin: 0 }}>
-      Section 4
+      Section 8
     </div>
   </div>
-  
-  
-/* <Switch>
-  <Route exact path='/'>
-    <Home />
-  </Route>
-  <Route path='/about-me'>
-    <About/>
-  </Route>
-  <Route path='/projects'>
-    <Projects/>
-  </Route>
-  <Route path='/project-detail'>
-    <ProjectDetail/>
-  </Route>
-  <Route path='/contact-me'>
-    <Contact/>
-  </Route>
-</Switch> */
+
 
   );
 }
