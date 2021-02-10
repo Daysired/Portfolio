@@ -1,7 +1,7 @@
 import "./App.css";
 import Home from "./screens/Home"
 import About from "./screens/About"
-// import Projects from "./screens/Projects"
+import Heroes from "./screens/Heroes"
 // import ProjectDetail from "./screens/ProjectDetail"
 // import Contact from "./screens/Contact"
 import React, { useRef } from "react";
@@ -60,7 +60,7 @@ function App() {
        </div>
     </div>
     <div ref={heroesRef} style={{ height: "100vh", margin: 0 }}>
-        Section 4
+        <Heroes/>
     </div>
     <div ref={everywhenRef} style={{ height: "100vh", margin: 0 }}>
         Section 5

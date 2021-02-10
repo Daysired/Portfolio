@@ -1,0 +1,70 @@
+.heroe-detail-img {
+  height: 23vw ;
+  width: 23vw;
+  margin-top: 12%;
+  border: 2px solid white;
+  border-radius: 165px;
+}
+
+.heroes-villains-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+}
+
+.heroes-villains-img {
+  grid-column: 3 / span 8;
+  grid-row: 1; 
+  padding-top: 5%; 
+  z-index: 1;
+  margin-left: 5%;
+}
+
+.heroes-villains-text-container {
+  align-self: center;
+  padding: 3em;
+  width: 55vw;
+  height: 23vw;
+  margin-top: 10%;
+  margin-left: 8%;
+  border: 2px solid white;
+  grid-column: 4 / -1;
+  grid-row: 1
+}
+
+.hero-title {
+  color: white;
+  font-size: 35px ;
+  font-family: "COM4t Fine Regular", sans-serif;
+  font-weight: lighter;
+  margin-top: 2%;
+  margin-left: 40%;
+}
+
+.heroes-villains-details {
+  color: white;
+  margin-left: 27%;
+  margin-top: 6%; 
+  font-family: "COM4t Fine Regular", sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 17px ;
+}
+
+.btn-container {
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  position: relative;
+  margin-top: 7%;
+}
+
+.heroe-site {
+  grid-column: 1 / span 8;
+  grid-row: 1; 
+  padding-top: 0%; 
+  z-index: 1
+}
+
+.h-github {
+  grid-column: 1 / -5;
+  grid-row: 1;
+}
