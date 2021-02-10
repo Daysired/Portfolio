@@ -2,7 +2,7 @@ import "./App.css";
 import Home from "./screens/Home"
 import About from "./screens/About"
 import Heroes from "./screens/Heroes"
-// import ProjectDetail from "./screens/ProjectDetail"
+import Everywhen from "./screens/Everywhen"
 // import Contact from "./screens/Contact"
 import React, { useRef } from "react";
 import { Link } from 'react-router-dom';
@@ -63,7 +63,7 @@ function App() {
         <Heroes/>
     </div>
     <div ref={everywhenRef} style={{ height: "100vh", margin: 0 }}>
-        Section 5
+        <Everywhen/>
     </div>
     <div ref={habaneroRef} style={{ height: "100vh", margin: 0 }}>
         Section 6
