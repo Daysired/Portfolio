@@ -1,29 +1,4 @@
-/* body {
-  background-image: url('https://i.imgur.com/VUKACOn.jpg');
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
- /* body {
-  background-image: url('https://i.imgur.com/6FfY41w.png');
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-
-/* body {
-  background-color: pink;
-}  */
-  /* h3 {
-   color: white;
-   font-size: 30px;
-   bottom: 0;
-
- } */
-
- .image-stack {
+.image-stack {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   position: relative;
@@ -59,16 +34,22 @@
    color: white;
    margin-left: 30%;
    margin-top: 2%; 
+   font-family: "COM4t Fine Regular", sans-serif;
+   letter-spacing: 0.1em;
+   font-size: 17px ;
  }
 
  button {
-  color: black;
   background-color: #FFD000;
   margin-left: 85%;
   margin-top: 1%;
   padding: 0.6em;
   width: 90px;
   border-radius: 15px;
+  font-family: "COM4t Fine Regular", sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 15px ;
  }
 
  h4 {
@@ -76,6 +57,8 @@
   margin-left: 30%;
   margin-top: 6%;
   margin-bottom: 1%;
+  font-family: "COM4t Fine Regular", sans-serif;
+  font-size: 17px ;
 
  }
  
@@ -113,7 +96,9 @@
   align-items: center;
   justify-content: center;
   color:white;
-  font-size: 14px;
+  font-size: 16px;
+  font-family: "COM4t Fine Regular", sans-serif;
+  font-weight: bold;
 }
 
 .language-icon {
