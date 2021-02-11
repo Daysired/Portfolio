@@ -5,7 +5,7 @@ import Heroes from "./screens/Heroes"
 import Everywhen from "./screens/Everywhen"
 import Habanero from "./screens/Habanero"
 import InSequence from "./screens/InSequence"
-// import Contact from "./screens/Contact"
+import Contact from "./screens/Contact"
 import React, { useRef } from "react";
 import { Link } from 'react-router-dom';
 
@@ -74,7 +74,7 @@ function App() {
       <InSequence/>
     </div>
     <div ref={contactRef} style={{ height: "100vh", margin: 0 }}>
-      Section 8
+      <Contact/>
     </div>
   </div>
 
