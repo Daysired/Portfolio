@@ -17,10 +17,20 @@ export default function Heroes() {
         </h5>
         <div className="btn-container">
           <div className="heroe-site">
-            <a href="https://daysired.github.io/Heroes-Vs-Villains/index.html"><button>Live Site</button></a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://daysired.github.io/Heroes-Vs-Villains/index.html">
+              <button className="h-site-btn">Live Site</button>
+            </a>
           </div>
           <div className="h-github">
-            <a href="https://github.com/Daysired"><button>Github</button></a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/Daysired">
+              <button className="h-gihub-btn">Github</button>
+            </a>
           </div>
         </div>
       </div>
