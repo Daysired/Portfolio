@@ -1,6 +1,7 @@
 import React from "react";
 import emailjs from "emailjs-com";
 
+
 import "./Contact.css";
 
 export default function Contact() {
@@ -45,9 +46,10 @@ export default function Contact() {
             name="user_email"
             placeholder="Email"
           />
-          <textarea className="inputs" name="message" placeholder="Message" />
+          <textarea name="message" placeholder="Message" />
           <input className="btn" type="submit" value="Send" />
         </form>
+        <h5 className="my-email">{"{  Email: daysireddejesus@odetocode.tech }"}</h5>
       </div>
     </div>
   );
