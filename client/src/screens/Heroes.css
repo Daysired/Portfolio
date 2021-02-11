@@ -15,9 +15,9 @@
 .heroes-villains-img {
   grid-column: 3 / span 8;
   grid-row: 1; 
-  padding-top: 13%; 
   z-index: 1;
   margin-left: 5%;
+  padding-top: 13%; 
   width: 240px;
 }
 
@@ -68,10 +68,6 @@
 .h-github {
   grid-column: 1 / -5;
   grid-row: 1;
-}
-
-.h-site-btn {
-
 }
 
 .h-gihub-btn {
