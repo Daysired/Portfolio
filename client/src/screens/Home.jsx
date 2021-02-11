@@ -1,5 +1,4 @@
-import "./Home.css";
-import { Link } from "react-router-dom";
+import "../styles/Home.css";
 import React from "react";
 
 export default function Home() {
@@ -17,7 +16,6 @@ export default function Home() {
       <div className="indicator">
         <span></span>
         <span></span>
-        {/* <span></span> */}
       </div>
     </div>
   );

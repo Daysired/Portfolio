@@ -1,5 +1,5 @@
 import React from "react";
-import "./InSequence.css";
+import "../styles/InSequence.css";
 
 
 export default function InSequence() {

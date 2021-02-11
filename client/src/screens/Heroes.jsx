@@ -1,6 +1,6 @@
 import React from "react";
+import "../styles/Heroes.css";
 
-import "./Heroes.css";
 
 
 export default function Heroes() {

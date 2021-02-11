@@ -1,5 +1,5 @@
 import React from "react";
-import "./Everywhen.css";
+import "../styles/Everywhen.css";
 
 
 export default function Everywhen() {

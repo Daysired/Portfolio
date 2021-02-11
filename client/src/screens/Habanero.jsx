@@ -1,5 +1,5 @@
 import React from "react";
-import "./Habanero.css";
+import "../styles/Habanero.css";
 
 
 export default function Habanero() {
