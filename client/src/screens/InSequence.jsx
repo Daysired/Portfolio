@@ -17,10 +17,20 @@ export default function InSequence() {
         </h5>
         <div className="insequence-btn-container">
           <div className="insequence-site">
-            <a href=" https://in-sequence.netlify.app/"><button>Live Site</button></a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href=" https://in-sequence.netlify.app/">
+              <button>Live Site</button>
+            </a>
           </div>
           <div className="insequence-github">
-            <a href="https://github.com/Daysired/In-Sequence"><button>Github</button></a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/Daysired/In-Sequence">
+              <button>Github</button>
+            </a>
           </div>
         </div>
       </div>
