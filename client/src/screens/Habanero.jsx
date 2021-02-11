@@ -17,10 +17,20 @@ export default function Habanero() {
         </h5>
         <div className="habanero-btn-container">
           <div className="habanero-site">
-            <a href="https://habaneros-marketplace.netlify.app/"><button>Live Site</button></a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://habaneros-marketplace.netlify.app/">
+              <button>Live Site</button>
+            </a>
           </div>
           <div className="habanero-github">
-            <a href="https://github.com/zac-olds/habaneros-marketplace"><button>Github</button></a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/zac-olds/habaneros-marketplace">
+              <button>Github</button>
+            </a>
           </div>
         </div>
       </div>

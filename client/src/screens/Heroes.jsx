@@ -28,7 +28,7 @@ export default function Heroes() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://github.com/Daysired">
+              href="https://github.com/Daysired/Heroes-Vs-Villains">
               <button className="h-gihub-btn">Github</button>
             </a>
           </div>

@@ -27,7 +27,7 @@ export default function Everywhen() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://github.com/Daysired">
+              href="https://github.com/Daysired/Everywhen">
               <button>Github</button>
             </a>
           </div>
