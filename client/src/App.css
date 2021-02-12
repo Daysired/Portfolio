@@ -88,22 +88,88 @@ nav {
 
 
 @media only screen and (max-device-width: 280px) {
+  nav {
+    height: 22px;
+  }
+  .nav-link-home {
+    margin-left: 35vw;
+    font-size: 12px;
+  }
+  .nav-link {
+    margin-left: 3vw;
+    font-size: 12px;
+  }
  
 }
 
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
- 
+  nav {
+    height: 23px;
+  }
+  .nav-link-home {
+    margin-left: 50vw;
+    font-size: 12px;
+  }
+  .nav-link {
+    margin-left: 3vw;
+    font-size: 12px;
+  }
 }
 
 @media only screen and (min-device-width: 540px) {
- 
+  nav {
+    height: 23px;
+  }
+  .nav-link-home {
+    margin-left: 50vw;
+    font-size: 15px;
+  }
+  .nav-link {
+    margin-left: 3vw;
+    font-size: 15px;
+  }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  
+  nav {
+    height: 25px;
+  }
+  .nav-link-home {
+    margin-left: 55vw;
+    font-size: 18px;
+  }
+  .nav-link {
+    margin-left: 3vw;
+    font-size: 18px;
+  }
 }
 
+@media only screen and (min-width: 1056px) {
+  nav {
+    height: 30px;
+  }
+  .nav-link-home {
+    margin-left: 60vw;
+    font-size: 19px;
+  }
+  .nav-link {
+    margin-left: 3vw;
+    font-size: 20px;
+  }
+}
+
+
 @media only screen and (min-width: 1224px) {
- 
+  nav {
+    height: 30px;
+  }
+  .nav-link-home {
+    margin-left: 63vw;
+    font-size: 20px;
+  }
+  .nav-link {
+    margin-left: 4vw;
+    font-size: 20px;
+  }
 }
