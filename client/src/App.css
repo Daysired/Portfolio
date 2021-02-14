@@ -5,7 +5,7 @@ nav {
   background: black;
   height: 30px;
   text-align: left;
-  width: 100vw;
+  /* width: 100vw; */
   z-index: 99;
 }
 .nav-link-home {
@@ -92,7 +92,7 @@ nav {
     height: 22px;
   }
   .nav-link-home {
-    margin-left: 35vw;
+    margin-left: 98vw;
     font-size: 12px;
   }
   .nav-link {
@@ -108,7 +108,7 @@ nav {
     height: 23px;
   }
   .nav-link-home {
-    margin-left: 50vw;
+    margin-left: 90vw;
     font-size: 12px;
   }
   .nav-link {
@@ -122,7 +122,7 @@ nav {
     height: 23px;
   }
   .nav-link-home {
-    margin-left: 50vw;
+    margin-left: 70vw;
     font-size: 15px;
   }
   .nav-link {
@@ -136,7 +136,7 @@ nav {
     height: 25px;
   }
   .nav-link-home {
-    margin-left: 55vw;
+    margin-left: 60vw;
     font-size: 18px;
   }
   .nav-link {
