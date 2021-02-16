@@ -19,8 +19,8 @@ export default function Contact() {
         },
         (error) => {
           console.log(error.text);
-        }
-      );
+        });
+        e.target.reset()
   }
 
   return (
@@ -35,13 +35,13 @@ export default function Contact() {
           <input
             className="inputs"
             type="text"
-            name="user_name"
+            name="name"
             placeholder="Name"
           />
           <input
             className="inputs"
-            type="email"
-            name="user_email"
+            type="text"
+            name="email"
             placeholder="Email"
           />
           <textarea name="message" placeholder="Message" />
