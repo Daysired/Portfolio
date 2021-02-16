@@ -6,38 +6,10 @@ body {
   background-size: cover;
 }
 
-.name {
-color:white;
-font-family: "COM4t Fine Regular", sans-serif;
-text-shadow: black 2px 3px;
-font-size: 70px;
-font-weight: lighter;
-margin-bottom: 0;
-}
-
-.title {
-  color:white;
-  font-family: "COM4t Fine Regular", serif;
-  text-shadow: black 1px 1px;
-  margin-top: 5%;
-  margin-left: 20%;
-  font-size: 30px;
-}
-
 .home-container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   position: relative;
-
-  
-}
-
-.top-text {
-  grid-column: 5 / span 8;
-  margin-right: 30%;
-  grid-row: 1; 
-  padding-top: 28%; 
-  z-index: 1; 
 }
 
 .bottom-image {
@@ -51,249 +23,155 @@ margin-bottom: 0;
   margin-top: 9%;
 }
 
-.indicator {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 3vw;
-  height: 3vw;
-  transform: rotate(45deg);
-  margin-top: 4%;
-  margin-left: 50%;
-}
-
-.indicator Link {
-	line-height: 1em;
-	display: inline-block;
-	color: white;
-	text-shadow: 0 1px 8px rgba(0,0,0,0.5);
-	transition: all 0.2s ease;
-}
-
-.indicator span {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: block;
-  box-sizing: border-box;
-  border: none;
-  border-right: 3px solid #fff;
-  border-bottom: 3px solid #fff;
-  animation: animate 1s linear infinite;
-}
-
-.indicator span:nth-child(1) {
-  top: -30px; 
-  left: -30px;
-  animation-delay: 0s;
-}
-.indicator span:nth-child(2) {
-  top: -15px; 
-  left: -15px;
-  animation-delay: 0.2s;
-}
-
-@keyframes animate {
-  0% {
-    border-color: #fff;
-    transform: translate(0, 0);
-  }
-  20% {
-    border-color: #fff;
-    transform: translate(15px, 15px);
-  }
-  200.1%, 100% {
-    border-color: #222;
-  }
-}
 
 @media only screen and (max-device-width: 280px) {
-  .name {
-    font-size: 55px;
-    margin-top: 15%;
-    margin-left: 23%;
-    text-shadow: black 2px 3px;
-    }
-    
-    .title {
-      margin-top: 3%;
-      margin-left: 32%;
-      font-size: 30px;
-      text-shadow: black 1px 2px;
-    }
-    
-    .top-text {
-      grid-row: 1; 
-      padding-top: 62%; 
-      z-index: 1; 
-      width: 950px;
-    }
-    
+ 
     .bottom-image {
-      margin-top: 25%;
+      margin-top: 10%;
       width: 500px;
-      margin-left: 3%;
+      margin-left: 37%;
     }
     
     .home-img {
-      height: 120vw ;
-      width: 370vw;
+      height: 80vw ;
+      width: 138vw;
       margin-top: 15%;
     }
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 400px) {
   
-.indicator {
-  margin-top: 22%;
-  margin-left: 185%;
-}
-
-.indicator span {
-  border-right: 3px solid #fff;
-  border-bottom: 3px solid #fff;
- 
-}
-.indicator {
-  width: 7vw;
-  height: 7vw;
-}
-}
-
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .name {
-    font-size: 28px;
-    margin-top: 6%;
-    margin-left: 17%;
-    text-shadow: black 1px 2px;
+    .bottom-image {
+      margin-top: 15%;
+      width: 500px;
+      margin-left: 0;
+      margin-left: 10%;
     }
     
-    .title {
-      margin-top: 2%;
-      margin-left: 27%;
-      font-size: 13px;
+    .home-img {
+      height: 70vw ;
+      width: 128vw;
+      margin-top: 10%;
     }
-    
-    .top-text {
-      grid-row: 1; 
-      padding-top: 65%; 
-      z-index: 1; 
-      width: 600px;
-    }
+}
+
+@media only screen and (min-device-width: 411px) {
     
     .bottom-image {
       margin-top: 20%;
       width: 500px;
-      margin-left: 20%;
+      margin-left: 0;
     }
     
     .home-img {
-      height: 52vw ;
-      width: 150vw;
+      height: 70vw ;
+      width: 128vw;
       margin-top: 10%;
     }
-  
-.indicator {
-  margin-top: 12%;
-  margin-left: 93%;
 }
 
-.indicator span {
-  border-right: 2px solid #fff;
-  border-bottom: 2px solid #fff;
-}
+@media only screen and (min-device-width: 494px) {
+    
+    .bottom-image {
+      margin-top: 10%;
+      width: 500px;
+      margin-left: 18%;
+    }
+    
+    .home-img {
+      height: 49vw ;
+      width: 90vw;
+      margin-top: 10%;
+    }
 
 }
 
 @media only screen and (min-device-width: 540px) {
-  /* .name {
-    font-size: 27px;
-    margin-top: 7%;
-    margin-left: 0%;
-    text-shadow: black 1px 2px;
-    }
-    
-    .title {
-      margin-top: 1%;
-      margin-left: 7%;
-      font-size: 13px;
-    }
-    
-    .top-text {
-      grid-row: 1; 
-      padding-top: 35%; 
-      z-index: 1; 
-      width: 600px;
-    }
-    
+
     .bottom-image {
-      margin-top: 10%;
+      margin-top: 5%;
       width: 500px;
-      margin-left: 3%;
+      margin-left: 10%; 
     }
     
     .home-img {
-      height: 32vw ;
+      height: 55vw ;
       width: 100vw;
       margin-top: 10%;
     }
-  
-.indicator {
-  margin-top: 12%;
-  margin-left: 52%;
 }
 
-.indicator span {
-  border-right: 2px solid #fff;
-  border-bottom: 2px solid #fff;
-} */
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  /* .name {
-    font-size: 63px;
-    margin-top: 6%;
-    margin-left: 15%;
-    text-shadow: black 1px 2px;
-    }
-    
-    .title {
-      margin-top: 2%;
-      margin-left: 35%;
-      font-size: 30px;
-    }
-    
-    .top-text {
-      grid-row: 1; 
-      padding-top: 65%; 
-      z-index: 1; 
-      width: 600px;
-    }
+@media only screen and (min-device-width: 600px) {
     
     .bottom-image {
-      margin-top: 20%;
+      margin-top: 5%;
+      width: 500px;
+      margin-left: 6%; 
+    }
+    
+    .home-img {
+      height: 55vw ;
+      width: 100vw;
+      margin-top: 10%;
+    }
+}
+
+@media only screen and (min-device-width: 768px) {
+    
+    .bottom-image {
+      margin-top: 5%;
       width: 500px;
       margin-left: 3%;
     }
     
     .home-img {
-      height: 52vw ;
-      width: 150vw;
+      height: 50vw ;
+      width: 85vw;
       margin-top: 10%;
     }
-  
-.indicator {
-  margin-top: 12%;
-  margin-left: 77%;
 }
 
-.indicator span {
-  border-right: 2px solid #fff;
-  border-bottom: 2px solid #fff;
-} */
-}
+ @media only screen and (min-device-width: 1024px) { 
+ 
+    .bottom-image {
+      margin-top: 5%;
+      width: 500px;
+      margin-left: 1%;
+    }
+    
+    .home-img {
+      height: 55vw ;
+      width: 100vw;
+      margin-top: 10%;
+    }
+} 
 
 @media only screen and (min-width: 1224px) {
-  
+    
+    .bottom-image {
+      margin-top: 5%;
+      width: 500px;
+      margin-left: 16%;
+    }
+    
+    .home-img {
+      height: 40vw ;
+      width: 68vw;
+      margin-top: 10%;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    
+    .bottom-image {
+      margin-top: 4%;
+      width: 500px;
+    }
+    
+    .home-img {
+      height: 40vw ;
+      width: 70vw;
+      margin-top: 10%;
+    }
 }

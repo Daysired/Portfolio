@@ -6,16 +6,10 @@ export default function Home() {
     <div className="container">
       <div className="home-container">
         <div className="top-text">
-          <h2 className="name">DAYSIRED DE JESUS</h2>
-          <h3 className="title">SOFTWARE ENGINEER</h3>
         </div>
         <div className="bottom-image">
-          <img className="home-img" src="https://i.imgur.com/d2PJ7UG.png" />
+          <img className="home-img" src="https://i.imgur.com/gtGGSin.png" />
         </div>
-      </div>
-      <div className="indicator">
-        <span></span>
-        <span></span>
       </div>
     </div>
   );

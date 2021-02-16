@@ -1,11 +1,11 @@
 nav {
   bottom: 0;
   left: 0;
-  position: absolute;
+  /* position: absolute; */
   background: black;
   height: 30px;
   text-align: left;
-  /* width: 100vw; */
+  width: 100vw;
   z-index: 99;
 }
 .nav-link-home {
@@ -92,7 +92,7 @@ nav {
     height: 22px;
   }
   .nav-link-home {
-    margin-left: 250vw;
+    margin-left: 53vw;
     font-size: 20px;
   }
   .nav-link {
@@ -108,68 +108,98 @@ nav {
     height: 23px;
   }
   .nav-link-home {
-    margin-left: 135vw;
-    font-size: 12px;
+    margin-left: 35vw;
+    font-size: 20px;
   }
   .nav-link {
-    margin-left: 3vw;
-    font-size: 12px;
+    margin-left: 5vw;
+    font-size: 20px;
   }
 }
 
 @media only screen and (min-device-width: 540px) {
-  /* nav {
+  nav {
     height: 23px;
   }
   .nav-link-home {
-    margin-left: 48vw;
-    font-size: 15px;
+    margin-left: 33vw;
+    font-size: 20px;
   }
   .nav-link {
-    margin-left: 3vw;
-    font-size: 15px;
-  } */
+    margin-left: 5vw;
+    font-size: 20px;
+  }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  /* nav {
+  nav {
     height: 25px;
   }
   .nav-link-home {
-    margin-left: 108vw;
-    font-size: 18px;
+    margin-left: 25vw;
+    font-size: 25px;
   }
   .nav-link {
-    margin-left: 3vw;
-    font-size: 18px;
-  } */
+    margin-left: 5vw;
+    font-size: 25px;
+  }
 }
 
-@media only screen and (min-width: 1056px) {
-  /* nav {
-    height: 30px;
+@media only screen and (min-device-width: 1024px) {
+  nav {
+    height: 25px;
   }
   .nav-link-home {
-    margin-left: 60vw;
-    font-size: 19px;
+    margin-left: 32vw;
+    font-size: 25px;
   }
   .nav-link {
-    margin-left: 3vw;
+    margin-left: 4vw;
+    font-size: 25px;
+  }
+}
+
+
+@media only screen and (min-width: 494px) {
+  nav {
+    height: 23px;
+  }
+  .nav-link-home {
+    margin-left: 20vw;
     font-size: 20px;
-  } */
+  }
+  .nav-link {
+    margin-left: 5vw;
+    font-size: 20px;
+  }
 }
 
 
 @media only screen and (min-width: 1224px) {
-  /* nav {
+  nav {
     height: 30px;
   }
   .nav-link-home {
-    margin-left: 113vw;
-    font-size: 20px;
+    margin-left: 34vw;
+    font-size: 25px;
   }
   .nav-link {
     margin-left: 4vw;
-    font-size: 20px;
-  } */
+    font-size: 25px;
+  }
+}
+
+
+@media only screen and (min-width: 1440px) {
+  nav {
+    height: 30px;
+  }
+  .nav-link-home {
+    margin-left: 34vw;
+    font-size: 25px;
+  }
+  .nav-link {
+    margin-left: 4vw;
+    font-size: 25px;
+  }
 }
