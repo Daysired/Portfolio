@@ -99,6 +99,57 @@ nav {
     margin-left: 7vw;
     font-size: 20px;
   }
+
+  .pr-circle {
+    height: 40vw ;
+    width: 120vw;
+    margin-top: 5%;
+  }
+  
+  .projects-circle {
+    grid-column: 4/ span 8;
+    padding-top: 8%; 
+    margin-left: 4%;
+    margin-top: 13%;
+  }
+
+  .projects-imgs {
+    grid-column: 3 / -1;
+    grid-row: 1;
+    margin-top: 42%;
+    border: 2px solid white;
+    height: 58vh;
+    width: 153vw;
+    margin-left: 2%;
+  }
+
+  .heroes-villains{
+    height: 38vw;
+    width: 41vw;
+    margin-left: 20%;
+    margin-top: 15%;
+  }
+  
+  .everywhen {
+    height: 38vw;
+    width: 41vw;
+  }
+  
+  .habanero {
+    height: 38vw;
+    width: 41vw;
+    margin-left: 20%;
+  }
+  
+  .in-sequence {
+    height: 38vw;
+    width: 41vw;
+  }
+  
+  .projects-container {
+    margin-top: 15%;
+    width: 500px;
+  }
  
 }
 
@@ -115,6 +166,59 @@ nav {
     margin-left: 5vw;
     font-size: 20px;
   }
+
+  .pr-circle {
+    height: 30vw ;
+    width: 90vw;;
+    margin-top: 5%;
+  }
+  
+  .projects-circle {
+    grid-column: 3 / span 8;
+    padding-top: 8%; 
+    margin-left: 8%;
+    margin-top: 13%;
+  }
+
+  .projects-imgs {
+    grid-column: 3 / -1;
+    grid-row: 1;
+    margin-top: 40%;
+    border: 2px solid white;
+    height: 48vh;
+    width: 95vw;
+    margin-left: 4%;
+  }
+
+  .heroes-villains{
+    height: 25vw;
+    width: 28vw;
+    margin-left: 17%;
+    margin-top: 15%;
+  }
+  
+  .everywhen {
+    height: 25vw;
+    width: 28vw;
+  }
+  
+  .habanero {
+    height: 25vw;
+    width: 28vw;
+    margin-left: 17%;
+  }
+  
+  .in-sequence {
+    height: 25vw;
+    width: 28vw;
+  }
+  
+  .projects-container {
+    margin-top: 15%;
+    width: 500px;
+  }
+  
+  
 }
 
 @media only screen and (min-device-width: 540px) {
@@ -129,9 +233,60 @@ nav {
     margin-left: 5vw;
     font-size: 20px;
   }
+
+  .pr-circle {
+    height: 30vw ;
+    width: 90vw;;
+    margin-top: 5%;
+  }
+  
+  .projects-circle {
+    grid-column: 3 / span 8;
+    padding-top: 8%; 
+    margin-left: 4%;
+    margin-top: 13%;
+  }
+
+  .projects-imgs {
+    grid-column: 3 / -1;
+    grid-row: 1;
+    margin-top: 48%;
+    border: 2px solid white;
+    height: 60vh;
+    width: 82vw;
+    margin-left: 4%;
+  }
+
+  .heroes-villains{
+    height: 25vw;
+    width: 28vw;
+    margin-left: 12%;
+    margin-top: 15%;
+  }
+  
+  .everywhen {
+    height: 25vw;
+    width: 28vw;
+  }
+  
+  .habanero {
+    height: 25vw;
+    width: 28vw;
+    margin-left: 12%;
+  }
+  
+  .in-sequence {
+    height: 25vw;
+    width: 28vw;
+  }
+  
+  .projects-container {
+    margin-top: 15%;
+    width: 500px;
+  }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 768px) {
   nav {
     height: 25px;
   }
@@ -143,6 +298,72 @@ nav {
     margin-left: 5vw;
     font-size: 25px;
   }
+
+.pr-circle {
+  height: 20vw ;
+  width: 60vw;
+  margin-top: 5%;
+}
+
+.heroes-villains{
+  height: 15vw ;
+  width: 18vw;
+  margin-top: 12%;
+  border: 2px solid white;
+  margin-left: 35%;
+
+}
+
+.habanero {
+  height: 15vw ;
+  width: 18vw;
+  margin-top: 5%;
+  border: 2px solid white;
+  margin-left: 35%;
+}
+
+.everywhen {
+  height: 15vw ;
+  width: 18vw;
+  margin-top: 12%;
+  border: 2px solid white;
+  margin-left: 5%;
+
+}
+
+.in-sequence {
+  height: 15vw ;
+  width: 18vw;
+  margin-top: 5%;
+  border: 2px solid white;
+  margin-left: 5%;
+
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+
+}
+
+.projects-circle {
+  grid-column: 1 / span 8;
+  grid-row: 1; 
+  padding-top: 15%; 
+  z-index: 1;
+  width: 0px;
+}
+
+.projects-imgs {
+  grid-column: 4 / -1;
+  grid-row: 1;
+  margin-top: 0%;
+  border: 0;
+  margin-left: 4%;
+  overflow: none;
+}
+
 }
 
 @media only screen and (min-device-width: 1024px) {
@@ -156,6 +377,37 @@ nav {
   .nav-link {
     margin-left: 4vw;
     font-size: 25px;
+  }
+
+  .pr-circle {
+    height: 20vw ;
+    width: 60vw;
+    margin-top: 5%;
+  }
+  
+  .heroes-villains{
+    height: 15vw ;
+    width: 18vw;
+    margin-top: 12%;
+    border: 2px solid white;
+    margin-left: 45%;
+  
+  }
+  
+  .habanero {
+    height: 15vw ;
+    width: 18vw;
+    margin-top: 5%;
+    border: 2px solid white;
+    margin-left: 45%;
+  }
+  
+  .projects-circle {
+    padding-top: 28%; 
+  }
+  
+  .projects-imgs {
+    margin-top: 0%;
   }
 }
 
@@ -187,6 +439,34 @@ nav {
     margin-left: 4vw;
     font-size: 25px;
   }
+
+  .pr-circle {
+    height: 20vw ;
+    width: 60vw;
+    margin-top: 5%;
+  }
+  
+  .heroes-villains{
+    height: 15vw ;
+    width: 18vw;
+    margin-left: 45%;
+  
+  }
+  
+  .habanero {
+    height: 15vw ;
+    width: 18vw;
+    margin-left: 45%;
+  }
+  
+  .projects-circle {
+    padding-top: 28%; 
+  }
+  
+  .projects-imgs {
+    margin-top: 2%;
+  }
+
 }
 
 
@@ -201,5 +481,32 @@ nav {
   .nav-link {
     margin-left: 4vw;
     font-size: 25px;
+  }
+
+  .pr-circle {
+    height: 20vw ;
+    width: 60vw;
+    margin-top: 5%;
+  }
+  
+  .heroes-villains{
+    height: 15vw ;
+    width: 18vw;
+    margin-left: 45%;
+  
+  }
+  
+  .habanero {
+    height: 15vw ;
+    width: 18vw;
+    margin-left: 45%;
+  }
+  
+  .projects-circle {
+    padding-top: 38%; 
+  }
+  
+  .projects-imgs {
+    margin-top: 0%;
   }
 }
