@@ -73,3 +73,253 @@
 .h-gihub-btn {
   margin-left: 80%;
 }
+
+
+@media only screen and (max-device-width: 280px) {
+  .heroe-detail-img {
+    height: 40vw;
+    width: 40vw;
+    margin-top: 5%;
+  }
+ 
+  .heroes-villains-img {
+    grid-column: 12 / span 8;
+  }
+  
+  .heroes-villains-text-container {
+    align-self: center;
+    padding: 3em;
+    width: 120vw;
+    height: 83vw;
+    margin-top: 45%;
+  }
+  
+  .hero-title {
+    margin-top: 5%;
+    margin-left: 15%;
+  }
+  
+  .heroes-villains-details {
+    margin-left: 7%;
+    margin-top: 7%; 
+  }
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .heroe-detail-img {
+    height: 35vw;
+    width: 35vw;
+  }
+ 
+  .heroes-villains-img {
+    grid-column: 8  / span 8;
+  }
+  
+  .heroes-villains-text-container {
+    align-self: center;
+    padding: 3em;
+    width: 75vw;
+    height: 70vw;
+    margin-top: 50%;
+    margin-left: 0%;
+  }
+  
+  .hero-title {
+    margin-top: 5%;
+    margin-left: 8%;
+  }
+  
+  .heroes-villains-details {
+    margin-left: 2%;
+    margin-top: 7%; 
+  }
+  
+}
+
+@media only screen and (min-device-width: 494px) {
+  .heroe-detail-img {
+    height: 30vw;
+    width: 30vw;
+  }
+ 
+  .heroes-villains-img {
+    grid-column: 6  / span 8;
+  }
+  
+  .heroes-villains-text-container {
+    width: 65vw;
+    height: 50vw;
+    margin-top: 47%;
+    margin-left: 0%;
+    grid-column: 3 / -1;
+    overflow: scroll;
+  }
+  
+  .hero-title {
+    margin-top: 5%;
+    margin-left: 12%;
+  }
+  
+  .heroes-villains-details {
+    margin-left: 2%;
+    margin-top: 7%; 
+  }
+  
+  
+  
+}
+
+@media only screen and (min-device-width: 540px) {
+  .heroe-detail-img {
+    height: 30vw;
+    width: 30vw;
+  }
+ 
+  .heroes-villains-img {
+    grid-column: 6  / span 8;
+  }
+  
+  .heroes-villains-text-container {
+    width: 65vw;
+    height: 50vw;
+    margin-top: 47%;
+    margin-left: 0%;
+    grid-column: 3 / -1;
+  }
+  
+  .hero-title {
+    margin-top: 5%;
+    margin-left: 12%;
+  }
+  
+  .heroes-villains-details {
+    margin-left: 2%;
+    margin-top: 7%; 
+  }
+}
+
+@media only screen and (min-device-width: 768px) {
+  .heroe-detail-img {
+    height: 25vw;
+    width: 25vw;
+    margin-left: 0%;
+  }
+ 
+  .heroes-villains-img {
+    grid-column: 3  / span 8;
+    margin-top: 40%;
+    margin-left: 0%;
+  }
+  
+  .heroes-villains-text-container {
+    width: 48vw;
+    height: 35vw;
+    margin-top: 40%;
+    margin-left: 20%;
+    grid-column: 3 / -1;
+  }
+  
+  .hero-title {
+    margin-top: 3%;
+    margin-left: 22%;
+  }
+  
+  .heroes-villains-details {
+    margin-left: 15%;
+    margin-top: 7%; 
+  }
+
+   .btn-container {
+    margin-top: 10%;
+  } 
+}
+
+ @media only screen and (min-device-width: 1024px) {
+  .heroe-detail-img {
+    height: 22vw;
+    width: 22vw;
+  }
+ 
+  .heroes-villains-img {
+    margin-top: 5%;
+  }
+  
+  .heroes-villains-text-container {
+    height: 25vw;
+    margin-top: 15%;
+    margin-left: 15%;
+    grid-column: 3 / -1;
+  }
+  
+  .hero-title {
+    margin-left: 30%;
+  }
+  
+  .heroes-villains-details {
+    margin-left: 18%;
+  }
+
+   .btn-container {
+    margin-top: 8%;
+  }
+}
+
+@media only screen and (min-width: 1224px) {
+ 
+  .heroe-detail-img {
+    height: 22vw;
+    width: 22vw;
+  }
+  
+  .heroes-villains-text-container {
+    width: 52vw;
+    height: 23vw;
+    margin-top: 12%;
+  }
+  
+  .hero-title {
+    margin-left: 35%;
+  }
+  
+  .heroes-villains-details {
+    margin-left: 18%;
+  }
+
+   .btn-container {
+    margin-top: 8%;
+  }
+  .heroe-site {
+    grid-column: 2 / span 8;
+  }
+  
+}
+
+@media only screen and (min-width: 1440px) {
+  .heroe-detail-img {
+    height: 20vw;
+    width: 20vw;
+    margin-left: 15%;
+  }
+  
+  .heroes-villains-text-container {
+    width: 52vw;
+    height: 20vw;
+    margin-top: 12%;
+  }
+  
+  .hero-title {
+    margin-left: 40%;
+  }
+  
+  .heroes-villains-details {
+    margin-left: 18%;
+  }
+
+   .btn-container {
+    margin-top: 8%;
+  }
+  .heroe-site {
+    grid-column: 3 / span 8;
+  }
+}
