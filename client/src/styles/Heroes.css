@@ -108,8 +108,8 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .heroe-detail-img {
-    height: 35vw;
-    width: 35vw;
+    height: 30vw;
+    width: 30vw;
   }
  
   .heroes-villains-img {
@@ -120,19 +120,21 @@
     align-self: center;
     padding: 3em;
     width: 75vw;
-    height: 70vw;
+    height: 50vw;
     margin-top: 50%;
     margin-left: 0%;
   }
   
   .hero-title {
     margin-top: 5%;
-    margin-left: 8%;
+    margin-left: 25%;
+    font-size: 20px;
   }
   
   .heroes-villains-details {
     margin-left: 2%;
     margin-top: 7%; 
+    font-size: 13px;
   }
   
 }
