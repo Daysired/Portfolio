@@ -6,6 +6,7 @@ import Everywhen from "./screens/Everywhen"
 import Habanero from "./screens/Habanero"
 import InSequence from "./screens/InSequence"
 import Contact from "./screens/Contact"
+import Footer from "./components/Footer"
 import React, { useRef } from "react";
 import { Link } from 'react-router-dom';
 
@@ -32,7 +33,7 @@ function App() {
   return (
   
     <div>
-    <nav style={{ position: "fixed", top: "16px", left: "16px" }}>
+    <nav style={{ position: "fixed", top: "0px", left: "0px", right: "0px" }}>
       <Link class="nav-link-home" onClick={() => scrollTo(homeRef)}>Home</Link>
       
       <Link class="nav-link" onClick={() => scrollTo(aboutRef)}>About</Link>
@@ -74,7 +75,8 @@ function App() {
       <InSequence/>
     </div>
     <div ref={contactRef} style={{ height: "100vh", margin: 0 }}>
-      <Contact/>
+        <Contact />
+        <Footer />
     </div>
   </div>
 

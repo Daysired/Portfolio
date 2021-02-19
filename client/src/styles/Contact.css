@@ -103,3 +103,389 @@ textarea {
   font-family: "COM4t Fine Regular", sans-serif;
   font-weight: bold;
 }
+
+@media only screen and (max-device-width: 280px) {
+  .contact-me {
+    font-size: 30px ;
+    margin-left: 7%;
+  }
+  
+  .my-email {
+    margin-left: 0%;
+    margin-top: 8%;
+    margin-bottom: 4%;
+  }
+  
+  .contact-img {
+    height: 35vw ;
+    width: 100vw;
+    margin-top: 0%;
+  }
+  
+  .contact-circle {
+    grid-column: 9 / span 8;
+    padding-top: 0%;
+    height: 100; 
+  }
+  
+  .form-container{
+    padding: 3em;
+    height: 63vh;
+    width: 102vw;
+    margin-top: 25%;
+    margin-left: 35%;
+  }
+  .contact-form {
+    align-self: center;
+    padding: 1em;
+    width: 38%;
+    height: 60%;
+    margin-left: 0%;
+    margin-top: 2%;
+  }
+  
+  .inputs {
+    width: 200px;
+    margin-left: 5%;
+    margin-top: 15%;
+  }
+  
+  textarea {
+    width: 205px;
+    margin-left: 5%;
+    margin-top: 15%;
+  }
+  
+  .btn {
+    width: 60%;
+    margin-top: 18%;
+    margin-left: 95%;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+ 
+ .contact-me {
+    font-size: 30px ;
+    margin-left: 5%;
+  }
+  
+  .my-email {
+    margin-left: 0%;
+    margin-top: 8%;
+    margin-bottom: 4%;
+  }
+  
+  .contact-img {
+    height: 30vw ;
+    width: 90vw;
+    margin-top: 0%;
+  }
+  
+  .contact-circle {
+    grid-column: 5 / span 8;
+    padding-top: 0%;
+    height: 100; 
+  }
+  
+  .form-container{
+    padding: 3em;
+    height: 65vh;
+    width: 70vw;
+    margin-top: 25%;
+    margin-left: 20%;
+  }
+  .contact-form {
+    align-self: center;
+    padding: 1em;
+    width: 38%;
+    height: 60%;
+    margin-left: 0%;
+    margin-top: 2%;
+  }
+  
+  .inputs {
+    width: 210px;
+    margin-left: 0%;
+    margin-top: 15%;
+  }
+  
+  textarea {
+    width: 215px;
+    margin-left: 2%;
+    margin-top: 15%;
+  }
+  
+  .btn {
+    width: 60%;
+    margin-top: 18%;
+    margin-left: 95%;
+  }
+
+}
+
+@media only screen and (min-device-width: 494px) {
+  .contact-me {
+    font-size: 30px ;
+    margin-left: 15%;
+  }
+  
+  .my-email {
+    margin-left: 0%;
+    margin-top: 18%;
+    margin-bottom: 4%;
+  }
+  
+  .contact-img {
+    height: 30vw ;
+    width: 90vw;
+    margin-top: 0%;
+  }
+  
+  .contact-circle {
+    grid-column: 4 / span 8;
+    padding-top: 0%;
+    height: 100;
+  }
+  
+  .form-container{
+    padding: 3em;
+    height: 65vh;
+    width: 70vw;
+    margin-top: 25%;
+    margin-left: 10%;
+    overflow: scroll;
+  }
+  .contact-form {
+    align-self: center;
+    padding: 1em;
+    width: 38%;
+    height: 60%;
+    margin-left: 0%;
+    margin-top: 2%;
+  }
+  
+  .inputs {
+    width: 210px;
+    margin-left: 25%;
+    margin-top: 15%;
+  }
+  
+  textarea {
+    width: 215px;
+    margin-left: 25%;
+    margin-top: 15%;
+  }
+  
+  .btn {
+    width: 60%;
+    margin-top: 18%;
+    margin-left: 95%;
+  }
+}
+
+@media only screen and (min-device-width: 540px) {
+  .contact-me {
+    font-size: 30px ;
+    margin-left: 18%;
+  }
+  
+  .my-email {
+    margin-left: 2%;
+    margin-top: 8%;
+    margin-bottom: 4%;
+  }
+  
+  .contact-img {
+    height: 30vw ;
+    width: 90vw;
+    margin-top: 0%;
+    margin-left: 10%;
+  }
+  
+  .contact-circle {
+    grid-column: 2 / span 8;
+    padding-top: 0%; 
+  }
+  
+  .form-container{
+    padding: 3em;
+    height: 50vh;
+    width: 65vw;
+    margin-top: 25%;
+    margin-left: 5%;
+    margin-bottom: 15%;
+  }
+  .contact-form {
+    align-self: center;
+    padding: 1em;
+    width: 38%;
+    height: 68%;
+    margin-left: 0%;
+    margin-top: 2%;
+  }
+  
+  .inputs {
+    width: 210px;
+    margin-left: 28%;
+    margin-top: 15%;
+  }
+  
+  textarea {
+    width: 215px;
+    margin-left: 28%;
+    margin-top: 15%;
+  }
+  
+  .btn {
+    width: 60%;
+    margin-top: 18%;
+    margin-left: 95%;
+  }
+}
+
+@media only screen and (min-device-width: 768px) {
+  
+  .contact-me {
+    font-size: 35px ;
+    margin-top: 2%;
+    margin-left: 47%;
+  }
+  
+  .my-email {
+    margin-left: 10%;
+    margin-top: 20%;
+  }
+  
+  .contact-img {
+    height: 22vw ;
+    width: 64vw;
+    margin-top: 15%;
+    margin-left: 0%;
+  }
+  
+  .contact-circle {
+    grid-row: 1;
+    grid-column: 1 / span 8;
+    padding-top: 8%; 
+    width: 400px;
+  }
+  
+  .form-container{
+    width: 50vw;
+    height: 50vw;
+    margin-top: 10%;
+    margin-left: 25%;
+    padding-bottom: 5em;
+  }
+  .contact-form {
+    align-self: center;
+    padding: 1em;
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+  }
+  
+  
+  .inputs {
+    width: 230px;
+    margin-left: 0%;
+    margin-top: 8%;
+  }
+  
+  textarea {
+    width: 234px;
+    margin-left: 0%;
+    margin-top: 8%;
+  }
+  
+  
+  .btn {
+    width: 28%;
+    margin-top: 5%;
+    margin-left: 55%;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) {
+  .contact-me {
+    margin-left: 55%;
+  }
+  
+  .my-email {
+    margin-left: 30%;
+    margin-top: 15%;
+  }
+ 
+  .form-container{
+    height: 45vw;
+  }
+
+  .inputs {
+    margin-left: 25%;
+  }
+  
+  textarea {
+    margin-left: 25%;
+  }
+  
+  .btn {
+    margin-left: 65%;
+  }
+}
+
+@media only screen and (min-width: 1224px) {
+  .contact-me {
+    margin-top: 2%;
+    margin-left: 47%;
+  }
+  
+  .my-email {
+    margin-left: 40%;
+    margin-top: 23%;
+  }
+
+  .form-container{
+    width: 50vw;
+    height: 30vw;
+    margin-top: 7%;
+  }
+  .contact-form {
+    height: 40%;
+  }
+
+  .inputs {
+    margin-left: 40%;
+  }
+  
+  textarea {
+    margin-left: 40%;
+  }
+  
+  .btn {
+    margin-left: 70%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .contact-me {
+    margin-left: 52%;
+  }
+  
+  .inputs {
+    margin-left: 50%;
+  }
+  
+  textarea {
+    margin-left: 50%;
+  }
+
+  .btn {
+    margin-top: 7%;
+    margin-left: 75%;
+  }
+  .my-email {
+    margin-left: 48%;
+  }
+}
