@@ -71,3 +71,271 @@
   grid-column: 1 / -5;
   grid-row: 1;
 }
+
+
+@media only screen and (max-device-width: 280px) {
+
+  .habanero-img {
+    grid-column: 12 / span 8;
+  }
+  
+  .habanero-detail-img {
+    height: 40vw;
+    width: 40vw;
+    margin-top: 5%;
+  }
+  
+  .habanero-text-container {
+    align-self: center;
+    padding: 3em;
+    width: 120vw;
+    height: 118vw;
+    margin-top: 45%;
+  }
+  
+  .habanero-title {
+    margin-top: 5%;
+    margin-left: 1%;
+  }
+  
+  .habanero-details {
+    margin-left: 7%;
+    margin-top: 7%; 
+  }
+  
+  .habanero-github {
+    grid-column: 10 / -5;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .habanero-img {
+    grid-column: 8 / span 8;
+  }
+  
+  .habanero-detail-img {
+    height: 30vw;
+    width: 30vw;
+  }
+  
+  .habanero-text-container {
+    align-self: center;
+    padding: 3em;
+    width: 75vw;
+    height: 70vw;
+    margin-top: 50%;
+    margin-left: 0%;
+  }
+  
+  .habanero-title {
+    margin-top: 5%;
+    margin-left: 33%;
+    font-size: 20px;
+  }
+  
+  .habanero-details {
+    margin-left: 4%;
+    margin-top: 7%; 
+    font-size: 13px;
+  }
+
+  .habanero-github {
+    grid-column: 10 / -5;
+  }
+}
+
+@media only screen and (min-device-width: 494px) {
+  .habanero-img {
+    grid-column: 6 / span 8;
+  }
+  
+  .habanero-detail-img {
+    height: 30vw;
+    width: 30vw;
+  }
+  
+  .habanero-text-container {
+    width: 65vw;
+    height: 47vw;
+    margin-top: 47%;
+    margin-left: 0%;
+    grid-column: 3 / -1;
+    overflow: scroll;
+  }
+  
+  .habanero-title {
+    margin-top: 5%;
+    margin-left: 28%;
+  }
+  
+  .habanero-details {
+    margin-left: 4%;
+    margin-top: 7%; 
+  }
+
+  .habanero-github {
+    grid-column: 10 / -5;
+  }
+}
+
+@media only screen and (min-device-width: 540px) {
+  .habanero-img {
+    grid-column: 6 / span 8;
+  }
+  
+  .habanero-detail-img {
+    height: 30vw;
+    width: 30vw;
+  }
+  
+  .habanero-text-container {
+    width: 65vw;
+    height: 62vw;
+    margin-top: 47%;
+    margin-left: 0%;
+    grid-column: 3 / -1;
+  }
+  
+  .habanero-title {
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  
+  .habanero-details {
+    margin-left: 4%;
+    margin-top: 7%; 
+  }
+}
+
+@media only screen and (min-device-width: 768px) {
+  .habanero-img {
+    grid-column: 3 / span 8;
+    margin-top: 40%;
+    margin-left: 0%;
+  }
+  
+  .habanero-detail-img {
+    height: 25vw ;
+    width: 25vw;
+    margin-left: 0%;
+  }
+  
+  .habanero-text-container {
+    width: 48vw;
+    height: 52vw;
+    margin-top: 40%;
+    margin-left: 20%;
+    grid-column: 3 / -1;
+  }
+  
+  .habanero-title {
+    margin-top: 5%;
+    margin-left: 35%;
+  }
+  
+  .habanero-details {
+    margin-left: 12%;
+    margin-top: 7%; 
+  }
+  
+  .habanero-btn-container {
+    margin-top: 10%;
+  }
+}
+
+ @media only screen and (min-device-width: 1024px) {
+  .habanero-img {
+    margin-top: 5%;
+  }
+  
+  .habanero-detail-img {
+    height: 22vw ;
+    width: 22vw;
+  }
+  
+  .habanero-text-container {
+    height: 37vw;
+    margin-top: 15%;
+    margin-left: 15%;
+    grid-column: 3 / -1;
+  }
+  
+  .habanero-title {
+    margin-left: 40%;
+  }
+  
+  .habanero-details {
+    margin-left: 18%;
+  }
+  
+  .habanero-btn-container {
+    margin-top: 8%;
+  }
+}
+
+@media only screen and (min-width: 1224px) {
+  .habanero-img {
+    margin-top: 5%;
+  }
+  
+  .habanero-detail-img {
+    height: 22vw ;
+    width: 22vw;
+  }
+  
+  .habanero-text-container {
+    width: 52vw;
+    height: 27vw;
+    margin-top: 12%;
+  }
+  
+  .habanero-title {
+    margin-left: 30%;
+  }
+  
+  .habanero-details {
+    margin-left: 18%;
+  }
+  
+  .habanero-btn-container {
+    margin-top: 8%;
+  }
+
+  .habanero-site {
+    grid-column: 2 / span 8;
+  }
+
+  .habanero-github {
+    grid-column: 9 / -5;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .habanero-detail-img {
+    height: 20vw;
+    width: 20vw;
+    margin-left: 15%;
+  }
+  
+  .habanero-text-container {
+    width: 52vw;
+    height: 25vw;
+    margin-top: 12%;
+  }
+  
+  .habanero-title {
+    margin-left: 35%;
+  }
+  
+  .habanero-details {
+    margin-left: 18%;
+  }
+  
+  .habanero-btn-container {
+    margin-top: 8%;
+  }
+
+  .habanero-site {
+    grid-column: 3 / span 8;
+  }
+}
