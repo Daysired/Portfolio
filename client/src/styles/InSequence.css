@@ -71,3 +71,281 @@
   grid-column: 1 / -5;
   grid-row: 1;
 }
+
+
+
+@media only screen and (max-device-width: 280px) {
+  
+  .insequence-img {
+    grid-column: 12 / span 8;
+  }
+  
+  .insequence-detail-img {
+    height: 40vw;
+    width: 40vw;
+    margin-top: 5%;
+  }
+  
+  .insequence-text-container {
+    align-self: center;
+    padding: 3em;
+    width: 120vw;
+    height: 93vw;
+    margin-top: 45%;
+  }
+  
+  .insequence-title {
+    margin-top: 5%;
+    margin-left: 28%;
+  }
+  
+  .insequence-details {
+    margin-left: 0%;
+    margin-top: 7%; 
+  }
+  
+  .insequence-github {
+    grid-column: 10 / -5;
+  }  
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+ .insequence-img {
+    grid-column: 8 / span 8;
+  }
+  
+  .insequence-detail-img {
+    height: 30vw;
+    width: 30vw;
+  }
+  
+  .insequence-text-container {
+    align-self: center;
+    padding: 3em;
+    width: 75vw;
+    height: 55vw;
+    margin-top: 50%;
+    margin-left: 0%;
+  }
+  
+  .insequence-title {
+    margin-top: 5%;
+    margin-left: 33%;
+    font-size: 20px;
+  }
+  
+  .insequence-details {
+    margin-left: 4%;
+    margin-top: 7%; 
+    font-size: 13px;
+  }
+  
+  .insequence-github {
+    grid-column: 10 / -5;
+  } 
+
+}
+
+@media only screen and (min-device-width: 494px) {
+ .insequence-img {
+    grid-column: 6 / span 8;
+  }
+  
+  .insequence-detail-img {
+    height: 30vw;
+    width: 30vw;
+  }
+  
+  .insequence-text-container {
+    width: 65vw;
+    height: 52vw;
+    margin-top: 47%;
+    margin-left: 0%;
+    grid-column: 3 / -1;
+    overflow: scroll;
+  }
+  
+  .insequence-title {
+    margin-top: 5%;
+    margin-left: 28%;
+  }
+  
+  .insequence-details {
+    margin-left: 8%;
+    margin-top: 7%; 
+  }
+  
+  .insequence-github {
+    grid-column: 10 / -5;
+  }
+}
+
+@media only screen and (min-device-width: 540px) {
+  .insequence-img {
+    grid-column: 6 / span 8;
+  }
+  
+  .insequence-detail-img {
+    height: 30vw;
+    width: 30vw;
+  }
+  
+  .insequence-text-container {
+    width: 65vw;
+    height: 47vw;
+    margin-top: 47%;
+    margin-left: 0%;
+    grid-column: 3 / -1;
+    overflow: scroll;
+  }
+  
+  .insequence-title {
+    margin-top: 5%;
+    margin-left: 28%;
+  }
+  
+  .insequence-details {
+    margin-left: 0%;
+    margin-top: 7%; 
+  }
+  
+}
+
+@media only screen and (min-device-width: 768px) {
+  .insequence-img {
+    grid-column: 3 / span 8;
+    margin-top: 40%;
+    margin-left: 0%;
+  }
+  
+  .insequence-detail-img {
+    height: 25vw ;
+    width: 25vw;
+    margin-left: 0%;
+  }
+  
+  .insequence-text-container {
+    width: 48vw;
+    height: 37vw;
+    margin-top: 40%;
+    margin-left: 20%;
+    grid-column: 3 / -1;
+    overflow: hidden;
+  }
+  
+  .insequence-title {
+    margin-top: 2%;
+    margin-left: 35%;
+  }
+  
+  .insequence-details {
+    margin-left: 25%;
+    margin-top: 7%; 
+  }
+  
+  .insequence-btn-container {
+    margin-top: 10%;
+  }
+
+}
+
+ @media only screen and (min-device-width: 1024px) {
+  .insequence-img {
+    margin-top: 5%;
+  }
+  
+  .insequence-detail-img {
+    height: 22vw ;
+    width: 22vw;
+  }
+  
+  .insequence-text-container {
+    height: 28vw;
+    margin-top: 15%;
+    margin-left: 15%;
+    grid-column: 3 / -1;
+  }
+  
+  .insequence-title {
+    margin-left: 43%;
+  }
+  
+  .insequence-details {
+    margin-left: 18%;
+  }
+  
+  .insequence-btn-container {
+    margin-top: 8%;
+  }
+}
+
+@media only screen and (min-width: 1224px) {
+  .insequence-img {
+    margin-top: 5%;
+  }
+  
+  .insequence-detail-img {
+    height: 22vw ;
+    width: 22vw;
+  }
+  
+  .insequence-text-container {
+    width: 52vw;
+    height: 23vw;
+    margin-top: 12%;
+  }
+  
+  .insequence-title {
+    margin-left: 43%;
+  }
+  
+  .insequence-details {
+    margin-left: 18%;
+  }
+  
+  .insequence-btn-container {
+    margin-top: 8%;
+  }
+  .insequence-site {
+    grid-column: 2 / span 8;
+  }
+  
+  .insequence-github {
+    grid-column: 9 / -5;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .insequence-img {
+    margin-top: 5%;
+  }
+  
+  .insequence-detail-img {
+    height: 20vw;
+    width: 20vw;
+    margin-left: 15%;
+  }
+  
+  .insequence-text-container {
+    width: 52vw;
+    height: 20vw;
+    margin-top: 12%;
+  }
+  
+  .insequence-title {
+    margin-left: 45%;
+  }
+  
+  .insequence-details {
+    margin-left: 18%;
+  }
+  
+  .insequence-btn-container {
+    margin-top: 8%;
+  }
+  .insequence-site {
+    grid-column: 3 / span 8;
+  }
+  
+}
