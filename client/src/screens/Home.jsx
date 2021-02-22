@@ -11,6 +11,7 @@ export default function Home() {
           <img className="home-img" src="https://i.imgur.com/gtGGSin.png" />
         </div>
       </div>
+
     </div>
   );
 }
