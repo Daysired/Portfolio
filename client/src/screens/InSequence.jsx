@@ -1,12 +1,14 @@
 import React from "react";
 import "../styles/InSequence.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 
 
 export default function InSequence() {
   return (
     <div className="insequence-container">
       <div className="insequence-img">
-        <img className="insequence-detail-img" src="https://i.imgur.com/0yAPhxX.png"/>
+        <img className="insequence-detail-img" src="https://i.imgur.com/ltpnoRG.png"/>
       </div>
       <div className="insequence-text-container">
         <h4 className="insequence-title">In Sequence</h4>
@@ -21,7 +23,7 @@ export default function InSequence() {
               target="_blank"
               rel="noreferrer"
               href=" https://in-sequence.netlify.app/">
-              <button>Live Site</button>
+              <FontAwesomeIcon className="in-site" icon={faGlobe} />
             </a>
           </div>
           <div className="insequence-github">
@@ -29,7 +31,7 @@ export default function InSequence() {
               target="_blank"
               rel="noreferrer"
               href="https://github.com/Daysired/In-Sequence">
-              <button>Github</button>
+              <i class="devicon-github-original"></i>
             </a>
           </div>
         </div>

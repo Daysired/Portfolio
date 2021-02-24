@@ -76,7 +76,7 @@ function App() {
     </div>
     <div ref={contactRef} style={{ height: "100vh", margin: 0 }}>
         <Contact />
-        <Footer />
+        {/* <Footer /> */}
     </div>
   </div>
 

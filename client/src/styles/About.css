@@ -16,7 +16,7 @@
   width: 64vw;
   margin-top: 10%;
  }
-
+ 
  .about-container-bottom {
   align-self: center;
   padding: 3em;
@@ -102,6 +102,46 @@
   padding: 1px;
   font-size: 1.5rem;
 }
+
+.btn-stack {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+}
+
+.resume-div {
+  grid-column: 1 / span 8;
+  grid-row: 1; 
+  padding-top: 0%; 
+  z-index: 1; 
+  width: 220px;
+  margin-left: 20%;
+}
+
+.my-git {
+  grid-column: 8 / 8;
+  grid-row: 1; 
+  padding-top: 2%;
+  font-size: 35px;
+  /* margin-left: 50%; */
+}
+
+.p-github {
+  color: #FFD000;
+}
+
+
+.my-linkedin {
+  padding-top: 2%;
+  font-size: 35px;
+  /* margin-left: 75%; */
+}
+
+.p-linked {
+  color: #FFD000;
+}
+
+
 
 
 @media only screen and (max-device-width: 280px) {
@@ -396,6 +436,7 @@
   .about-circle-top {
     grid-column: 3 / span 8;
     padding-top: 5%; 
+    height: 300px;
   }
   
    .about-img {
@@ -421,12 +462,26 @@
      font-size: 13px ;
    }
   
+   .resume-div {
+     width: 50px;
+     margin-top: 1%;
+   }
+
    button {
-    margin-left: 40%;
-    margin-top: 2%;
+    margin-left: 15%;
+    margin-top: 6%;
     margin-bottom: 3%;
     width: 80px;
     font-size: 12px ;
+   }
+
+   .my-git {
+    margin-left:5%;
+    grid-column: 7 / 8;
+   }
+
+   .my-linkedin {
+    margin-left: 140%;
    }
   
    h4 {
@@ -595,15 +650,26 @@
     width: 24vw;
     margin-left: 32%;
    }
+
+   .btn-stack {
+    margin-left: 15%;
+  }
+   button {
+    margin-left: 90%;
+   }
+
+   .my-git {
+    margin-left: 120%;
+   }
+
+   .my-linkedin {
+    margin-left: 140%;
+   }
  
 }
 
 @media only screen and (min-device-width: 1024px) { 
   
-   button {
-    margin-left: 52%;
-   }
-
    .about-container-bottom {
     width: 53vw;
     height: 32vw;
@@ -613,12 +679,37 @@
     width: 18vw;
     margin-left: 32%;
    }
+
+
+   .btn-stack {
+     margin-left: 20%;
+   }
+
+   button {
+    margin-left: 82%;
+   }
+
+   .my-git {
+    margin-left: 75%;
+   }
+
+   .my-linkedin {
+    margin-left: 140%;
+   }
   
 } 
 
 @media only screen and (min-width: 1224px) {
   button {
-    margin-left: 58%;
+    margin-left: 85%;
+   }
+
+   .my-git {
+    margin-left: 63%;
+   }
+
+   .my-linkedin {
+    margin-left: 140%;
    }
 
    .section-line {
@@ -633,7 +724,15 @@
 
 @media only screen and (min-width: 1440px) {
   button {
-    margin-left: 58%;
+    margin-left: 95%;
+   }
+
+   .my-git {
+    margin-left: 60%;
+   }
+
+   .my-linkedin {
+    margin-left: 140%;
    }
 
    .section-line {

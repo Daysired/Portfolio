@@ -72,6 +72,126 @@
   grid-row: 1;
 }
 
+@-webkit-keyframes habanero-github {
+  15% {
+      -webkit-transform: translateY(5px);
+      transform: translateY(5px);
+  }
+  30% {
+      -webkit-transform: translateY(-5px);
+      transform: translateY(-5px);
+  }
+  50% {
+      -webkit-transform: translateY(3px);
+      transform: translateY(3px);
+  }
+  65% {
+      -webkit-transform: translateY(-3px);
+      transform: translateY(-3px);
+  }
+  80% {
+      -webkit-transform: translateY(2px);
+      transform: translateY(2px);
+  }
+  100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+  }
+}
+@keyframes habanero-github {
+  15% {
+      -webkit-transform: translateY(5px);
+      transform: translateY(5px);
+  }
+  30% {
+      -webkit-transform: translateY(-5px);
+      transform: translateY(-5px);
+  }
+  50% {
+      -webkit-transform: translateY(3px);
+      transform: translateY(3px);
+  }
+  65% {
+      -webkit-transform: translateY(-3px);
+      transform: translateY(-3px);
+  }
+  80% {
+      -webkit-transform: translateY(2px);
+      transform: translateY(2px);
+  }
+  100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+  }
+}
+.habanero-github:hover
+{
+  -webkit-animation: habanero-github 1s ease;
+  animation: habanero-github 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+@-webkit-keyframes hab-site {
+  15% {
+      -webkit-transform: translateY(5px);
+      transform: translateY(5px);
+  }
+  30% {
+      -webkit-transform: translateY(-5px);
+      transform: translateY(-5px);
+  }
+  50% {
+      -webkit-transform: translateY(3px);
+      transform: translateY(3px);
+  }
+  65% {
+      -webkit-transform: translateY(-3px);
+      transform: translateY(-3px);
+  }
+  80% {
+      -webkit-transform: translateY(2px);
+      transform: translateY(2px);
+  }
+  100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+  }
+}
+@keyframes hab-site {
+  15% {
+      -webkit-transform: translateY(5px);
+      transform: translateY(5px);
+  }
+  30% {
+      -webkit-transform: translateY(-5px);
+      transform: translateY(-5px);
+  }
+  50% {
+      -webkit-transform: translateY(3px);
+      transform: translateY(3px);
+  }
+  65% {
+      -webkit-transform: translateY(-3px);
+      transform: translateY(-3px);
+  }
+  80% {
+      -webkit-transform: translateY(2px);
+      transform: translateY(2px);
+  }
+  100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+  }
+}
+.hab-site:hover
+{
+  -webkit-animation: hab-site 1s ease;
+  animation: hab-site 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
 
 @media only screen and (max-device-width: 280px) {
 
@@ -104,8 +224,18 @@
   }
   
   .habanero-github {
-    grid-column: 10 / -5;
+    margin-left: 85%;
+    margin-top: 0%;
+    font-size: 35px;
   }
+
+  .hab-site {
+    color: #FFD000;
+    font-size: 35px;
+    margin-top: 2%;
+    margin-left: 50%;
+  }
+
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -140,7 +270,15 @@
   }
 
   .habanero-github {
-    grid-column: 10 / -5;
+    margin-left: 85%;
+    font-size: 35px;
+  }
+
+  .hab-site {
+    font-size: 35px;
+    margin-top: 2%;
+    margin-left: 50%;
+    color: #FFD000;
   }
 }
 
@@ -174,7 +312,16 @@
   }
 
   .habanero-github {
-    grid-column: 10 / -5;
+    margin-left: 85%;
+    margin-top: 0%;
+    font-size: 37px;
+  }
+
+  .hab-site {
+    font-size: 37px;
+    margin-top: 2%;
+    margin-left: 50%;
+    color: #FFD000;
   }
 }
 
@@ -205,6 +352,16 @@
     margin-left: 4%;
     margin-top: 7%; 
   }
+
+  .habanero-github {
+    margin-top: 2%;
+    font-size: 45px;
+  }
+
+  .hab-site {
+    font-size: 45px;
+    margin-top: 4%;
+  }
 }
 
 @media only screen and (min-device-width: 768px) {
@@ -214,10 +371,36 @@
     margin-left: 0%;
   }
   
+  @keyframes spin {
+    from{
+    transform: rotateY(0deg);
+    moz-transform: rotateY(0deg);
+    ms-transform: rotateY(0deg); 
+    }
+    to{
+    transform: rotateY(360deg);
+    moz-transform: rotateY(360deg); 
+    ms-transform: rotateY(360deg); 
+    }
+   }
+   @-webkit-keyframes spin{
+    from{-webkit-transform: rotateY(0deg);}
+    to{-webkit-transform: rotateY(360deg);}
+   }
+
   .habanero-detail-img {
     height: 25vw ;
     width: 25vw;
-    margin-left: 0%;
+    margin-top: 45%;
+    margin-left: 10%;
+    animation-name: spin;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    -webkit-animation-name: spin;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 8s;
   }
   
   .habanero-text-container {
@@ -234,13 +417,18 @@
   }
   
   .habanero-details {
-    margin-left: 12%;
+    margin-left: 18%;
     margin-top: 7%; 
   }
   
   .habanero-btn-container {
     margin-top: 10%;
   }
+
+  .hab-site {
+    margin-left: 65%;
+  }
+
 }
 
  @media only screen and (min-device-width: 1024px) {
@@ -251,6 +439,8 @@
   .habanero-detail-img {
     height: 22vw ;
     width: 22vw;
+    margin-top: 48%;
+    margin-left: 5%;
   }
   
   .habanero-text-container {
@@ -271,6 +461,18 @@
   .habanero-btn-container {
     margin-top: 8%;
   }
+
+  .habanero-github {
+    margin-top: 0%;
+    font-size: 45px;
+  }
+
+  .hab-site {
+    font-size: 45px;
+    margin-top: 2%;
+    margin-left: 75%;
+  }
+
 }
 
 @media only screen and (min-width: 1224px) {
@@ -281,6 +483,8 @@
   .habanero-detail-img {
     height: 22vw ;
     width: 22vw;
+    margin-left: 5%;
+    margin-top: 20%;
   }
   
   .habanero-text-container {
@@ -306,7 +510,12 @@
   }
 
   .habanero-github {
-    grid-column: 9 / -5;
+    font-size: 47px;
+  }
+
+  .hab-site {
+    font-size: 47px;
+    margin-top: 1%;
   }
 }
 
@@ -337,5 +546,15 @@
 
   .habanero-site {
     grid-column: 3 / span 8;
+  }
+
+  .habanero-github {
+    font-size: 52px;
+  }
+
+  .hab-site {
+    font-size: 52px;
+    margin-top: 1%;
+    margin-left: 60%;
   }
 }

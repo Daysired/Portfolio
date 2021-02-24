@@ -62,7 +62,68 @@
   grid-column: 1 / span 8;
   grid-row: 1; 
   padding-top: 0%; 
-  z-index: 1
+  z-index: 1;
+}
+
+
+@-webkit-keyframes hr-site {
+  15% {
+      -webkit-transform: translateY(5px);
+      transform: translateY(5px);
+  }
+  30% {
+      -webkit-transform: translateY(-5px);
+      transform: translateY(-5px);
+  }
+  50% {
+      -webkit-transform: translateY(3px);
+      transform: translateY(3px);
+  }
+  65% {
+      -webkit-transform: translateY(-3px);
+      transform: translateY(-3px);
+  }
+  80% {
+      -webkit-transform: translateY(2px);
+      transform: translateY(2px);
+  }
+  100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+  }
+}
+@keyframes hr-site {
+  15% {
+      -webkit-transform: translateY(5px);
+      transform: translateY(5px);
+  }
+  30% {
+      -webkit-transform: translateY(-5px);
+      transform: translateY(-5px);
+  }
+  50% {
+      -webkit-transform: translateY(3px);
+      transform: translateY(3px);
+  }
+  65% {
+      -webkit-transform: translateY(-3px);
+      transform: translateY(-3px);
+  }
+  80% {
+      -webkit-transform: translateY(2px);
+      transform: translateY(2px);
+  }
+  100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+  }
+}
+.hr-site:hover
+{
+  -webkit-animation: hr-site 1s ease;
+  animation: hr-site 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
 
 .h-github {
@@ -70,9 +131,67 @@
   grid-row: 1;
 }
 
-.h-gihub-btn {
-  margin-left: 80%;
+
+@-webkit-keyframes h-github {
+  15% {
+      -webkit-transform: translateY(5px);
+      transform: translateY(5px);
+  }
+  30% {
+      -webkit-transform: translateY(-5px);
+      transform: translateY(-5px);
+  }
+  50% {
+      -webkit-transform: translateY(3px);
+      transform: translateY(3px);
+  }
+  65% {
+      -webkit-transform: translateY(-3px);
+      transform: translateY(-3px);
+  }
+  80% {
+      -webkit-transform: translateY(2px);
+      transform: translateY(2px);
+  }
+  100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+  }
 }
+@keyframes h-github {
+  15% {
+      -webkit-transform: translateY(5px);
+      transform: translateY(5px);
+  }
+  30% {
+      -webkit-transform: translateY(-5px);
+      transform: translateY(-5px);
+  }
+  50% {
+      -webkit-transform: translateY(3px);
+      transform: translateY(3px);
+  }
+  65% {
+      -webkit-transform: translateY(-3px);
+      transform: translateY(-3px);
+  }
+  80% {
+      -webkit-transform: translateY(2px);
+      transform: translateY(2px);
+  }
+  100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+  }
+}
+.h-github:hover
+{
+  -webkit-animation: h-github 1s ease;
+  animation: h-github 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
 
 
 @media only screen and (max-device-width: 280px) {
@@ -80,6 +199,7 @@
     height: 40vw;
     width: 40vw;
     margin-top: 5%;
+
   }
  
   .heroes-villains-img {
@@ -102,6 +222,23 @@
   .heroes-villains-details {
     margin-left: 7%;
     margin-top: 7%; 
+  }
+
+  .h-github {
+    margin-left: 85%;
+    margin-top: 0%;
+    font-size: 35px;
+  }
+
+  .hr-site {
+    color: #FFD000;
+    font-size: 35px;
+    margin-top: 2%;
+    margin-left: 50%;
+  }
+
+  .devicon-github-original {
+   color: #FFD000;
   }
 
 }
@@ -137,6 +274,23 @@
     font-size: 13px;
   }
   
+  .h-github {
+    margin-left: 85%;
+    margin-top: 0%;
+    font-size: 35px;
+  }
+
+  .hr-site {
+    color: #FFD000;
+    font-size: 35px;
+    margin-top: 2%;
+    margin-left: 50%;
+  }
+
+  .devicon-github-original {
+   color: #FFD000;
+  }
+
 }
 
 @media only screen and (min-device-width: 494px) {
@@ -167,6 +321,23 @@
     margin-left: 2%;
     margin-top: 7%; 
   } 
+
+  .h-github {
+    margin-left: 85%;
+    margin-top: 0%;
+    font-size: 37px;
+  }
+
+  .hr-site {
+    color: #FFD000;
+    font-size: 37px;
+    margin-top: 2%;
+    margin-left: 50%;
+  }
+
+  .devicon-github-original {
+   color: #FFD000;
+  }
   
 }
 
@@ -197,13 +368,49 @@
     margin-left: 2%;
     margin-top: 7%; 
   }
+
+  .h-github {
+    margin-top: 2%;
+    font-size: 45px;
+  }
+
+  .hr-site {
+    font-size: 45px;
+    margin-top: 4%;
+  }
 }
 
 @media only screen and (min-device-width: 768px) {
+  @keyframes spin {
+    from{
+    transform: rotateY(0deg);
+    moz-transform: rotateY(0deg);
+    ms-transform: rotateY(0deg); 
+    }
+    to{
+    transform: rotateY(360deg);
+    moz-transform: rotateY(360deg); 
+    ms-transform: rotateY(360deg); 
+    }
+   }
+   @-webkit-keyframes spin{
+    from{-webkit-transform: rotateY(0deg);}
+    to{-webkit-transform: rotateY(360deg);}
+   }
+
   .heroe-detail-img {
     height: 25vw;
     width: 25vw;
-    margin-left: 0%;
+    margin-top: 22%;
+    margin-left: 10%;
+    animation-name: spin;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    -webkit-animation-name: spin;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 8s;
   }
  
   .heroes-villains-img {
@@ -233,14 +440,32 @@
    .btn-container {
     margin-top: 10%;
   } 
+
+  .hr-site {
+    margin-left: 65%;
+  }
 }
 
  @media only screen and (min-device-width: 1024px) {
   .heroe-detail-img {
     height: 22vw;
     width: 22vw;
+    margin-top: 25%;
+    margin-left: 5%;
   }
  
+  .h-github {
+    margin-top: 0%;
+    font-size: 45px;
+  }
+
+  .hr-site {
+    font-size: 45px;
+    margin-top: 2%;
+    margin-left: 75%;
+  }
+
+
   .heroes-villains-img {
     margin-top: 5%;
   }
@@ -270,6 +495,8 @@
   .heroe-detail-img {
     height: 22vw;
     width: 22vw;
+    margin-left: 5%;
+    margin-top: 12%;
   }
   
   .heroes-villains-text-container {
@@ -293,6 +520,14 @@
     grid-column: 2 / span 8;
   }
   
+  .h-github {
+    font-size: 47px;
+  }
+
+  .hr-site {
+    font-size: 47px;
+    margin-top: 1%;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -300,6 +535,7 @@
     height: 20vw;
     width: 20vw;
     margin-left: 15%;
+    margin-top: 9%;
   }
   
   .heroes-villains-text-container {
@@ -321,5 +557,15 @@
   }
   .heroe-site {
     grid-column: 3 / span 8;
+  }
+
+  .h-github {
+    font-size: 52px;
+  }
+
+  .hr-site {
+    font-size: 52px;
+    margin-top: 1%;
+    margin-left: 60%;
   }
 }

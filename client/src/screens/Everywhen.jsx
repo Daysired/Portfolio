@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/Everywhen.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 
 
 export default function Everywhen() {
@@ -20,7 +22,7 @@ export default function Everywhen() {
               target="_blank"
               rel="noreferrer"
               href="https://everywhen.netlify.app/">
-              <button clas>Live Site</button>
+              <FontAwesomeIcon className="er-site" icon={faGlobe} />
             </a>
           </div>
           <div className="e-github">
@@ -28,7 +30,7 @@ export default function Everywhen() {
               target="_blank"
               rel="noreferrer"
               href="https://github.com/Daysired/Everywhen">
-              <button>Github</button>
+               <i class="devicon-github-original"></i>
             </a>
           </div>
         </div>

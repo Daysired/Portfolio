@@ -73,6 +73,128 @@
 }
 
 
+@-webkit-keyframes insequence-github {
+  15% {
+      -webkit-transform: translateY(5px);
+      transform: translateY(5px);
+  }
+  30% {
+      -webkit-transform: translateY(-5px);
+      transform: translateY(-5px);
+  }
+  50% {
+      -webkit-transform: translateY(3px);
+      transform: translateY(3px);
+  }
+  65% {
+      -webkit-transform: translateY(-3px);
+      transform: translateY(-3px);
+  }
+  80% {
+      -webkit-transform: translateY(2px);
+      transform: translateY(2px);
+  }
+  100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+  }
+}
+@keyframes insequence-github {
+  15% {
+      -webkit-transform: translateY(5px);
+      transform: translateY(5px);
+  }
+  30% {
+      -webkit-transform: translateY(-5px);
+      transform: translateY(-5px);
+  }
+  50% {
+      -webkit-transform: translateY(3px);
+      transform: translateY(3px);
+  }
+  65% {
+      -webkit-transform: translateY(-3px);
+      transform: translateY(-3px);
+  }
+  80% {
+      -webkit-transform: translateY(2px);
+      transform: translateY(2px);
+  }
+  100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+  }
+}
+.insequence-github:hover
+{
+  -webkit-animation: insequence-github 1s ease;
+  animation: insequence-github 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+@-webkit-keyframes in-site {
+  15% {
+      -webkit-transform: translateY(5px);
+      transform: translateY(5px);
+  }
+  30% {
+      -webkit-transform: translateY(-5px);
+      transform: translateY(-5px);
+  }
+  50% {
+      -webkit-transform: translateY(3px);
+      transform: translateY(3px);
+  }
+  65% {
+      -webkit-transform: translateY(-3px);
+      transform: translateY(-3px);
+  }
+  80% {
+      -webkit-transform: translateY(2px);
+      transform: translateY(2px);
+  }
+  100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+  }
+}
+@keyframes in-site {
+  15% {
+      -webkit-transform: translateY(5px);
+      transform: translateY(5px);
+  }
+  30% {
+      -webkit-transform: translateY(-5px);
+      transform: translateY(-5px);
+  }
+  50% {
+      -webkit-transform: translateY(3px);
+      transform: translateY(3px);
+  }
+  65% {
+      -webkit-transform: translateY(-3px);
+      transform: translateY(-3px);
+  }
+  80% {
+      -webkit-transform: translateY(2px);
+      transform: translateY(2px);
+  }
+  100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+  }
+}
+.in-site:hover
+{
+  -webkit-animation: in-site 1s ease;
+  animation: in-site 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+
+
 
 @media only screen and (max-device-width: 280px) {
   
@@ -105,8 +227,17 @@
   }
   
   .insequence-github {
-    grid-column: 10 / -5;
+    margin-left: 85%;
+    margin-top: 0%;
+    font-size: 35px;
   }  
+
+  .in-site {
+    color: #FFD000;
+    font-size: 35px;
+    margin-top: 2%;
+    margin-left: 50%;
+  }
 
 }
 
@@ -142,8 +273,16 @@
   }
   
   .insequence-github {
-    grid-column: 10 / -5;
+    margin-left: 85%;
+    font-size: 35px;
   } 
+
+  .in-site {
+    color: #FFD000;
+    font-size: 35px;
+    margin-top: 2%;
+    margin-left: 50%;
+  }
 
 }
 
@@ -177,8 +316,17 @@
   }
   
   .insequence-github {
-    grid-column: 10 / -5;
+    margin-left: 85%;
+    margin-top: 0%;
+    font-size: 37px;
   }
+
+  .in-site {
+    font-size: 37px;
+    margin-top: 2%;
+    margin-left: 50%;
+    color: #FFD000;
+  }  
 }
 
 @media only screen and (min-device-width: 540px) {
@@ -210,6 +358,16 @@
     margin-top: 7%; 
   }
   
+  .insequence-github {
+    margin-top: 2%;
+    font-size: 45px;
+  }
+
+  .in-site {
+    font-size: 45px;
+    margin-top: 4%;
+  }
+
 }
 
 @media only screen and (min-device-width: 768px) {
@@ -218,11 +376,36 @@
     margin-top: 40%;
     margin-left: 0%;
   }
-  
+  @keyframes spin {
+    from{
+    transform: rotateY(0deg);
+    moz-transform: rotateY(0deg);
+    ms-transform: rotateY(0deg); 
+    }
+    to{
+    transform: rotateY(360deg);
+    moz-transform: rotateY(360deg); 
+    ms-transform: rotateY(360deg); 
+    }
+   }
+   @-webkit-keyframes spin{
+    from{-webkit-transform: rotateY(0deg);}
+    to{-webkit-transform: rotateY(360deg);}
+   }
+
   .insequence-detail-img {
     height: 25vw ;
     width: 25vw;
-    margin-left: 0%;
+    margin-top: 30%;
+    margin-left: 10%;
+    animation-name: spin;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    -webkit-animation-name: spin;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 8s;
   }
   
   .insequence-text-container {
@@ -248,6 +431,10 @@
     margin-top: 10%;
   }
 
+  .in-site {
+    margin-left: 65%;
+  }
+
 }
 
  @media only screen and (min-device-width: 1024px) {
@@ -258,6 +445,8 @@
   .insequence-detail-img {
     height: 22vw ;
     width: 22vw;
+    margin-top: 35%;
+    margin-left: 5%;
   }
   
   .insequence-text-container {
@@ -278,6 +467,17 @@
   .insequence-btn-container {
     margin-top: 8%;
   }
+
+  .insequence-github {
+    margin-top: 0%;
+    font-size: 45px;
+  }
+
+  .in-site {
+    font-size: 45px;
+    margin-top: 2%;
+    margin-left: 75%;
+  }
 }
 
 @media only screen and (min-width: 1224px) {
@@ -288,6 +488,8 @@
   .insequence-detail-img {
     height: 22vw ;
     width: 22vw;
+    margin-left: 5%;
+    margin-top: 12%;
   }
   
   .insequence-text-container {
@@ -312,7 +514,12 @@
   }
   
   .insequence-github {
-    grid-column: 9 / -5;
+    font-size: 47px;
+  }
+
+  .in-site {
+    font-size: 47px;
+    margin-top: 1%;
   }
 }
 
@@ -325,6 +532,7 @@
     height: 20vw;
     width: 20vw;
     margin-left: 15%;
+    margin-top: 7%;
   }
   
   .insequence-text-container {
@@ -348,4 +556,13 @@
     grid-column: 3 / span 8;
   }
   
+  .insequence-github {
+    font-size: 52px;
+  }
+
+  .in-site {
+    font-size: 52px;
+    margin-top: 1%;
+    margin-left: 60%;
+  }
 }

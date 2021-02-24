@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/Heroes.css";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGlobe } from '@fortawesome/free-solid-svg-icons'
+// import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 
 
 export default function Heroes() {
@@ -21,7 +23,9 @@ export default function Heroes() {
               target="_blank"
               rel="noreferrer"
               href="https://daysired.github.io/Heroes-Vs-Villains/index.html">
-              <button className="h-site-btn">Live Site</button>
+              <FontAwesomeIcon className="hr-site" icon={faGlobe} />
+              {/* <FontAwesomeIcon className="hr-site" icon={faExternalLinkAlt} /> */}
+              
             </a>
           </div>
           <div className="h-github">
@@ -29,7 +33,7 @@ export default function Heroes() {
               target="_blank"
               rel="noreferrer"
               href="https://github.com/Daysired/Heroes-Vs-Villains">
-              <button className="h-gihub-btn">Github</button>
+              <i class="devicon-github-original"></i>
             </a>
           </div>
         </div>

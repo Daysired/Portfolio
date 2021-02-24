@@ -1,12 +1,14 @@
 import React from "react";
 import "../styles/Habanero.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 
 
 export default function Habanero() {
   return (
     <div className="habanero-container">
       <div className="habanero-img">
-        <img className="habanero-detail-img" src="https://i.imgur.com/af3pNkH.png"/>
+        <img className="habanero-detail-img" src="https://i.imgur.com/f8Q7Dzn.png"/>
       </div>
       <div className="habanero-text-container">
         <h4 className="habanero-title">Habanero's Marketplace</h4>
@@ -21,7 +23,7 @@ export default function Habanero() {
               target="_blank"
               rel="noreferrer"
               href="https://habaneros-marketplace.netlify.app/">
-              <button>Live Site</button>
+              <FontAwesomeIcon className="hab-site" icon={faGlobe} />
             </a>
           </div>
           <div className="habanero-github">
@@ -29,7 +31,7 @@ export default function Habanero() {
               target="_blank"
               rel="noreferrer"
               href="https://github.com/zac-olds/habaneros-marketplace">
-              <button>Github</button>
+              <i class="devicon-github-original"></i>
             </a>
           </div>
         </div>
