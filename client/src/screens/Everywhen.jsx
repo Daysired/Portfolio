@@ -8,7 +8,7 @@ export default function Everywhen() {
   return (
     <div className="everywhen-container">
       <div className="everywhen-img">
-        <img className="everywhen-detail-img" src="https://i.imgur.com/oUsBCPN.png"/>
+        <img className="everywhen-detail-img" src="https://i.imgur.com/9AHSkxl.png"/>
       </div>
       <div className="everywhen-text-container">
         <h4 className="everywhen-title">Everywhen</h4>
