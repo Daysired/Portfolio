@@ -22,7 +22,7 @@ export default function About() {
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://drive.google.com/file/d/1SEE3ymCmKl3W460fN5uIRvthLakEg6X9/view?usp=sharing">
+          href="https://drive.google.com/file/d/1mx7o9WmYhpJDl3M2Nu8DYmLL91pCCHiT/view?usp=sharing">
           <button>Resume <FontAwesomeIcon className="resume" icon={faDownload} /></button>
           </a>
         </div>
