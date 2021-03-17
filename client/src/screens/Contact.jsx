@@ -1,6 +1,7 @@
 import React from "react";
 import emailjs from "emailjs-com";
 import "../styles/Contact.css";
+import Layout from "../components/Layout";
 
 export default function Contact() {
   function sendEmail(e) {
@@ -24,6 +25,7 @@ export default function Contact() {
   }
 
   return (
+    <Layout>
     <div className="contact-container">
       <div className="contact-circle">
         <img className="contact-img" src="https://i.imgur.com/H4t0mRM.png" />
@@ -49,6 +51,7 @@ export default function Contact() {
         </form>
         <h5 className="my-email">{"{  Email: daysireddejesus@odetocode.tech }"}</h5>
       </div>
-    </div>
+      </div>
+      </Layout>
   );
 }

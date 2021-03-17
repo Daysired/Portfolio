@@ -1,0 +1,94 @@
+.pjs {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  grid-row-start: 2;
+  grid-column-start: 1;
+  margin: 3em auto;
+  max-width: 775px;
+}
+
+.pj-title {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  text-align: center;
+  font-weight: lighter;
+  /* height: 50px; */
+  color: white;
+  font-family: "COM4t Fine Regular", sans-serif;
+  /* margin: 1em 0; */
+}
+
+.pj-sectionline {
+  background-color: #fff;
+  height: 1px;
+  width: 16vw;
+  margin: 1vh auto 4vh;
+  margin-top: 0%;
+  margin-bottom: 2%;
+  margin-left: 42%;
+}
+
+.card {
+  display: flex;
+  height: 280px;
+  width: 200px;
+  border-radius: 10px white;
+  box-shadow: -1rem 0.2rem 0.7rem #FFD000;
+  transition: .4s ease-out;
+  position: relative;
+  left: 0;
+}
+
+.card:hover~.card {
+  position: relative;
+  left: 60px;
+  transition: .4s ease-out;
+}
+
+
+
+.card:not(:first-child) {
+  margin-left: -50px;
+}
+
+.pj-hv {
+  height: 280px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.pj-every {
+  height: 280px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.pj-haba {
+  height: 280px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.pj-inseq {
+  height: 280px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.title {
+  background-color: rgba(41,41,41,.9058823529411765);
+  color: #fff;
+  width: 180px;
+  padding: 10px;
+  position: absolute;
+  margin-top: 0;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+
+}

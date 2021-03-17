@@ -1,19 +1,21 @@
 import "../styles/About.css";
-import React from "react";
+import React from "react"; 
+import Layout from "../components/Layout";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
 
 export default function About() {
   return (
+    <Layout>
     <div className="image-stack">
       <div className="about-circle-top">
         <img className="about-img" src="https://i.imgur.com/25rtdfN.png" />
       </div>
       <div className="about-container-bottom">
         <h5 className="about-text">
-          Hi there, I’m Daysired (I also go by “Daisy”). 
-          Im an NYC tailor turned software engineer looking to bring my passion and creativity into the tech industry. 
+          Hi there, I’m Daysired (aka Daisy). 
+          Im an NYC tailor and academic advisor turned software engineer looking to bring my passion and creativity into the tech industry. 
           From my passion for fashion to my ode to code, I’m always looking for a new challenge and opportunity to showcase my skills. 
           As someone who’s always worked in a fast paced environment, quick thinking and creative problem solving have always been my best attributes and I’m excited to bring these qualities and more to my next role.
         </h5>
@@ -94,6 +96,7 @@ export default function About() {
           </div>
         </div>
       </div>
-    </div>
+      </div>
+    </Layout>
   );
 }

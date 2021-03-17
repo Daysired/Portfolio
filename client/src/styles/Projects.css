@@ -1,43 +1,3 @@
-nav {
-  bottom: 0;
-  /* left: 0; */
-  /* right: 0; */
-  /* top: 0; */
-  /* position: absolute; */
-  background-color: black;
-  height: 80px;
-  /* text-align: left; */
-  /* float: right; */
-  /* width: 100vw; */
-  z-index: 99;
-  min-width: calc(100% + 2px);
-  /* border-bottom: 1px solid white; */
-}
-
-
-
-.nav-link-home {
-  color: white;
-  text-decoration: none;
-  margin-left: 90vw;
-  font-family: "COM4t Fine Regular", sans-serif;
-  font-size: 20px;
-  
-}
-.nav-link
-{
-  color: white;
-  text-decoration: none;
-  margin-left: 5vw;
-  font-family: "COM4t Fine Regular", sans-serif;
-  font-size: 20px;
-}
-
-/* .pr-circle {
-  height: 22vw ;
-  width: 63vw;
-  margin-top: 5%;
-}
 
 .heroes-villains{
   height: 15vw ;
@@ -330,7 +290,7 @@ nav {
 .projects-imgs {
   grid-column: 4 / -1;
   grid-row: 1;
-} */
+}
 
 
 @media only screen and (max-device-width: 280px) {
@@ -345,7 +305,7 @@ nav {
     margin-left: 7vw;
     font-size: 20px;
   }
-/* 
+
   .pr-circle {
     height: 40vw ;
     width: 120vw;
@@ -395,7 +355,7 @@ nav {
   .projects-container {
     margin-top: 15%;
     width: 500px;
-  } */
+  }
  
 }
 
@@ -412,7 +372,7 @@ nav {
     margin-left: 5vw;
     font-size: 20px;
   }
-/* 
+
   .pr-circle {
     height: 30vw ;
     width: 90vw;;
@@ -462,7 +422,7 @@ nav {
   .projects-container {
     margin-top: 15%;
     width: 500px;
-  } */
+  }
   
   
 }
@@ -479,7 +439,7 @@ nav {
     margin-left: 5vw;
     font-size: 20px;
   }
-/* 
+
   .pr-circle {
     height: 30vw ;
     width: 90vw;;
@@ -529,7 +489,7 @@ nav {
   .projects-container {
     margin-top: 15%;
     width: 500px;
-  } */
+  }
 }
 
 @media only screen and (min-device-width: 768px) {
@@ -545,8 +505,6 @@ nav {
     font-size: 25px;
   }
 
-
-/* 
 .pr-circle {
   height: 20vw ;
   width: 60vw;
@@ -610,7 +568,7 @@ nav {
   border: 0;
   margin-left: 4%;
   overflow: none;
-} */
+}
 
 }
 
@@ -626,7 +584,7 @@ nav {
     margin-left: 4vw;
     font-size: 25px;
   }
-/* 
+
   .pr-circle {
     height: 20vw ;
     width: 60vw;
@@ -655,7 +613,7 @@ nav {
   
   .projects-imgs {
     margin-top: 0%;
-  } */
+  }
 }
 
 
@@ -686,7 +644,7 @@ nav {
     margin-left: 4vw;
     font-size: 25px;
   }
-/* 
+
   .pr-circle {
     height: 20vw ;
     width: 60vw;
@@ -756,5 +714,4 @@ nav {
   .projects-imgs {
     margin-top: 0%;
   }
-} */
 }
