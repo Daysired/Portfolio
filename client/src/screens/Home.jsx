@@ -28,7 +28,7 @@ export default function Home() {
           <div className="home-socials">
             <ul>
               <li className="list-links">
-                <a target="_blank" rel="noreferrer" href="">
+                <a target="_blank" rel="noreferrer" href="https://www.instagram.com/daisy_d.j/">
                   IN
                 </a>
               </li>

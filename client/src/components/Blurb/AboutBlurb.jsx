@@ -7,9 +7,10 @@ export default function AboutBlurb() {
     <div>
         <div className="img-stack">
       <div className="about-c-top">
-        <img className="abt-img" src="" />
+        <img className="abt-img" src="https://i.imgur.com/FIbZCZS.png" />
       </div>
-      <div className="about-c-bottom">
+        <div className="about-c-bottom">
+          <h4 className="about-blurb-title">About Me</h4>
         <h5 className="abt-text">
             Hi there, I’m Daysired (aka Daisy). 
             Im an NYC tailor and academic advisor turned software engineer looking to bring my passion and creativity into the tech industry. 

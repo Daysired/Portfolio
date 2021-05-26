@@ -78,11 +78,11 @@ const RightNav = ({ open }) => {
         </a>
       </li>
 
-      <li>
+      {/* <li>
         <a href="/projects">
           PROJECTS
         </a>
-      </li>
+      </li> */}
       
       <li>
       <a href="/contact">
