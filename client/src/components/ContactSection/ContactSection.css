@@ -2,9 +2,8 @@
   display: flex;
   flex-flow: column wrap;
   padding: 2vh 0 2vh 0;
-  color: white;
-  /* background-image: url('https://i.imgur.com/cHmP0D2.png'); */
-  border-top: 1px solid white;
+  color: black;
+  border-top: 1px solid black
 }
 
 .contact-header {

@@ -19,12 +19,12 @@ export default function ProjectImgs() {
         </div>
 
         <div className="card">
-          <img className="pj-haba" src="https://i.imgur.com/f8Q7Dzn.png" />
+          <img className="pj-haba" src="https://i.imgur.com/WOxqBWh.png" />
           <h3 className="title">Habanero's Marketplace</h3>
         </div>
 
         <div className="card">
-          <img className="pj-inseq" src="https://i.imgur.com/ltpnoRG.png" />
+          <img className="pj-inseq" src="https://i.imgur.com/0yAPhxX.png" />
           <h3 className="title">In Sequence</h3>
         </div>
          

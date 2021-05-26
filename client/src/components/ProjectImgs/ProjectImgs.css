@@ -16,13 +16,13 @@
   text-align: center;
   font-weight: lighter;
   /* height: 50px; */
-  color: white;
+  color: black;
   font-family: "COM4t Fine Regular", sans-serif;
   /* margin: 1em 0; */
 }
 
 .pj-sectionline {
-  background-color: #fff;
+  background-color: black;
   height: 1px;
   width: 16vw;
   margin: 1vh auto 4vh;

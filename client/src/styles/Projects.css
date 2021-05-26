@@ -294,7 +294,7 @@
 
 
 @media only screen and (max-device-width: 280px) {
-  nav {
+  /* nav {
     height: 22px;
   }
   .nav-link-home {
@@ -304,7 +304,7 @@
   .nav-link {
     margin-left: 7vw;
     font-size: 20px;
-  }
+  } */
 
   .pr-circle {
     height: 40vw ;
@@ -361,7 +361,7 @@
 
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  nav {
+  /* nav {
     height: 23px;
   }
   .nav-link-home {
@@ -371,7 +371,7 @@
   .nav-link {
     margin-left: 5vw;
     font-size: 20px;
-  }
+  } */
 
   .pr-circle {
     height: 30vw ;
@@ -428,7 +428,7 @@
 }
 
 @media only screen and (min-device-width: 540px) {
-  nav {
+  /* nav {
     height: 23px;
   }
   .nav-link-home {
@@ -438,7 +438,7 @@
   .nav-link {
     margin-left: 5vw;
     font-size: 20px;
-  }
+  } */
 
   .pr-circle {
     height: 30vw ;
@@ -493,7 +493,7 @@
 }
 
 @media only screen and (min-device-width: 768px) {
-  nav {
+  /* nav {
     height: 25px;
   }
   .nav-link-home {
@@ -503,7 +503,7 @@
   .nav-link {
     margin-left: 5vw;
     font-size: 25px;
-  }
+  } */
 
 .pr-circle {
   height: 20vw ;
@@ -573,7 +573,7 @@
 }
 
 @media only screen and (min-device-width: 1024px) {
-  nav {
+  /* nav {
     height: 25px;
   }
   .nav-link-home {
@@ -583,7 +583,7 @@
   .nav-link {
     margin-left: 4vw;
     font-size: 25px;
-  }
+  } */
 
   .pr-circle {
     height: 20vw ;
@@ -618,7 +618,7 @@
 
 
 @media only screen and (min-width: 494px) {
-  nav {
+  /* nav {
     height: 23px;
   }
   .nav-link-home {
@@ -628,12 +628,12 @@
   .nav-link {
     margin-left: 5vw;
     font-size: 20px;
-  }
+  } */
 }
 
 
 @media only screen and (min-width: 1224px) {
-  nav {
+  /* nav {
     height: 30px;
   }
   .nav-link-home {
@@ -643,7 +643,7 @@
   .nav-link {
     margin-left: 4vw;
     font-size: 25px;
-  }
+  } */
 
   .pr-circle {
     height: 20vw ;
@@ -676,7 +676,7 @@
 
 
 @media only screen and (min-width: 1440px) {
-  nav {
+  /* nav {
     height: 30px;
   }
   .nav-link-home {
@@ -686,7 +686,7 @@
   .nav-link {
     margin-left: 4vw;
     font-size: 25px;
-  }
+  } */
 
   .pr-circle {
     height: 20vw ;

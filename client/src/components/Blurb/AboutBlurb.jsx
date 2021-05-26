@@ -7,7 +7,7 @@ export default function AboutBlurb() {
     <div>
         <div className="img-stack">
       <div className="about-c-top">
-        <img className="abt-img" src="https://i.imgur.com/25rtdfN.png" />
+        <img className="abt-img" src="" />
       </div>
       <div className="about-c-bottom">
         <h5 className="abt-text">

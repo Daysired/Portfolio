@@ -1,5 +1,5 @@
 import "../styles/About.css";
-import React from "react"; 
+import React from "react";
 import Layout from "../components/Layout";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
