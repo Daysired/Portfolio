@@ -1,10 +1,10 @@
-import "./App.css";
 import Home from "./screens/Home"
 import About from "./screens/About"
 import Projects from "./screens/Projects"
 import Contact from "./screens/Contact"
 import { Route } from "react-router-dom";
 import React from "react";
+import './App.css';
 
  
 function App() {

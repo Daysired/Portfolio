@@ -20,8 +20,9 @@
 
  .about-blurb-title {
   margin-left: 30vw;
+  margin-top:-2%;
   margin-bottom: 8%;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   font-size: 2vw;
   font-family: "COM4t Fine Regular", sans-serif;
  }
@@ -30,12 +31,13 @@
   align-self: center;
   padding: 3em;
   width: 53vw;
-  height: 20vw;
-  margin-top: 7%;
-  margin-left: 17%;
+  height: 23vw;
+  margin-top: 12%;
+  margin-left: 18%;
   grid-column: 2 / -1;
   grid-row: 1;
-  margin-bottom: 15%;
+  margin-bottom: 8%;
+  border: 2px solid black;
  }
 
  .abt-text {
@@ -53,7 +55,8 @@
   margin-top: 4%;
   margin-bottom: 1%;
   font-family: "COM4t Fine Regular", sans-serif;
-  text-decoration: none;
+  /* text-decoration: none; */
+  text-decoration: underline;
   font-weight:  bold;
   font-size: 1.3vw ;
  }
