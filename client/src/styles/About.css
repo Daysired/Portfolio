@@ -1,0 +1,146 @@
+ .image-stack {
+  display: flex; 
+  /* grid-template-columns: repeat(12, 1fr);
+   position: relative; */
+}
+
+.aboutscreen-title {
+  font-family: "COM4t Fine Regular", sans-serif;
+  text-decoration: underline;
+  font-size: 2vw;
+  margin-bottom: 7%;
+  text-align: center;
+  margin-left: 30%;
+}
+
+.about-circle-top {
+
+  height:400px;
+  width: 300px;
+  /* background-color: white; */
+  margin-left: 10%;
+  margin-top: 10%;
+  /* grid-row: 1;
+  grid-column: 1 / span 8; */
+  padding-top: 5%; 
+  z-index: 1;
+}
+
+ .about-img {
+  height: 32vw ;
+  width: 34vw;
+  
+ }
+ 
+ .about-container-bottom {
+  align-self: center;
+  padding: 2em;
+  width: 55vw;
+  height: 38vw;
+  margin-top: 10%;
+  margin-left: -5%;
+  /* border: 2px solid black; */
+  /* grid-column: 2 / -1;
+  grid-row: 1; */
+  margin-bottom: 20%;
+ }
+
+ .about-text {
+   color: black;
+   margin-left: 30%;
+   margin-top: 0%; 
+   font-family: "COM4t Fine Regular", sans-serif;
+   letter-spacing: 0.1em;
+   font-size: 17px ;
+ }
+
+ button {
+  background-color: black;
+  margin-left: 85%;
+  margin-top: 1%;
+  padding: 0.6em;
+  width: 90px;
+  border-radius: 5px;
+  font-family: "COM4t Fine Regular", sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 15px ;
+ }
+
+ button:hover {
+  background-color: white;
+  color: black;
+ }
+
+ .languages-title {
+  color: black;
+  text-decoration: bold;
+  margin-left: 50%;
+  margin-top: 6%;
+  margin-bottom: 3%;
+  text-decoration: underline;
+  font-family: "COM4t Fine Regular", sans-serif;
+  font-size: 1.5vw;
+
+ }
+ 
+
+ /* .section-line {
+  background-color:black;
+  height: 1px;
+  width: 16vw;
+  margin: 1vh auto 4vh;
+  margin-top: 0%;
+  margin-bottom: 2%;
+  margin-left: 30%;
+ } */
+
+ .languages-container {
+  display: grid;
+  grid-template-areas: "1 2 3 4";
+  padding: 2vh 0;
+  grid-column-gap: 2vw;
+  column-gap: 2vw;
+  grid-row-gap: 2vh;
+  row-gap: 2vh;
+  margin-bottom: 54%;
+  margin-left: 24%;
+ }
+
+
+.language-div {
+  font-size: 1.5rem;
+  padding: 1vh 1vw 1vh 1vw;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:black;
+  font-size: 16px;
+  font-family: "COM4t Fine Regular", sans-serif;
+  font-weight: bold;
+}
+
+.language-icon {
+  padding: 1px;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.btn-stack {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+}
+
+.resume-div {
+  grid-column: 1 / span 8;
+  grid-row: 1; 
+  padding-top: 0%; 
+  z-index: 1; 
+  width: 220px;
+  margin-left: 50%;
+}
+
+
+

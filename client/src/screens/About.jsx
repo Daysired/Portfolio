@@ -10,15 +10,23 @@ export default function About() {
     <Layout>
     <div className="image-stack">
       <div className="about-circle-top">
-        <img className="about-img" src="https://i.imgur.com/25rtdfN.png" />
+        <img className="about-img" src="https://i.imgur.com/FIbZCZS.png" />
       </div>
-      <div className="about-container-bottom">
+        <div className="about-container-bottom">
+          <h4 className="aboutscreen-title">About Me</h4>
         <h5 className="about-text">
-          Hi there, I’m Daysired (aka Daisy). 
-          Im an NYC tailor and academic advisor turned software engineer looking to bring my passion and creativity into the tech industry. 
-          From my passion for fashion to my ode to code, I’m always looking for a new challenge and opportunity to showcase my skills. 
-          As someone who’s always worked in a fast paced environment, quick thinking and creative problem solving have always been my best attributes and I’m excited to bring these qualities and more to my next role.
+            Hi there, I’m Daysired (aka Daisy). 
+            Im an NYC tailor and academic advisor turned software engineer
+             looking to bring my passion and creativity into the tech industry.
+            From my passion for fashion to my ode to code, I’m always looking for
+             a new challenge and opportunity to showcase my skills. I recently created
+             Ode To Code to brand and market my work and skills.
         </h5>
+          <h5 className="about-text"> Open to full-time, part-time and freelance work
+          opportunities alike, I bring passion and a strong work ethic to every position.
+          As someone who’s always worked in a fast paced environment, quick thinking
+          and creative problem solving have always been my best attributes and I’m excited
+          to bring these qualities and more to my next role.</h5>
         <div className="btn-stack">
         <div className="resume-div">
         <a
@@ -28,27 +36,10 @@ export default function About() {
           <button>Resume <FontAwesomeIcon className="resume" icon={faDownload} /></button>
           </a>
         </div>
-        <div className="my-git">
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://github.com/Daysired">
-          <FontAwesomeIcon className="p-github" icon={faGithub} />
-          </a>
-        </div>
-
-        <div className="my-linkedin">
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.linkedin.com/in/daysired-de-jesus/">
-          <FontAwesomeIcon className="p-linked" icon={faLinkedinIn} />
-        </a>
-        </div>
+        
        </div>
 
-        <h4>Languages and Frameworks</h4>
-        <div className="section-line"></div>
+        <h4 className="languages-title">Languages and Frameworks</h4>
         <div className="languages-container">
           <div className="language-div">
             <i className="language-icon devicon-html5-plain colored" />
