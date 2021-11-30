@@ -4,6 +4,7 @@ import React from "react";
 import AboutBlurb from "../components/Blurb/AboutBlurb";
 import ProjectImgs from "../components/ProjectImgs/ProjectImgs";
 import Layout from "../components/Layout";
+import Contact from "./Contact";
 
 export default function Home() {
   return (
@@ -59,8 +60,10 @@ export default function Home() {
         </div>
 
         <AboutBlurb />
-          <ProjectImgs />
+        <ProjectImgs />
+        {/* <Contact /> */}
       </div>
     </Layout>
+
   );
 }

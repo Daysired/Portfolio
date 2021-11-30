@@ -1,6 +1,6 @@
 import Home from "./screens/Home"
 import About from "./screens/About"
-import Projects from "./screens/Projects"
+
 import Contact from "./screens/Contact"
 import { Route } from "react-router-dom";
 import React from "react";
@@ -22,9 +22,9 @@ function App() {
         <About />
       </Route>
 
-      <Route path="/projects">
+      {/* <Route path="/projects">
         <Projects />
-      </Route>
+      </Route> */}
 
       <Route path="/contact">
         <Contact />

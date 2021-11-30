@@ -3,7 +3,6 @@ import React from "react";
 import Layout from "../components/Layout";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
 
 export default function About() {
   return (
