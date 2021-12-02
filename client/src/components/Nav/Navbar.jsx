@@ -8,6 +8,7 @@ const Nav = styled.nav`
   width: 100%;
   // margin-top: 10px;
   height: 85px;
+  z-index: 9999;
   position: fixed;
   padding: 0 20px;
   display: flex;
@@ -19,18 +20,20 @@ const Nav = styled.nav`
   }
 
   .main-logo {
-    width: 5vw;
+    height: 60px;
+    width: 60px;
     float: left;
-    margin-top: 15px;
+    margin-top: 8px;
     margin-left:20px;
   }
 
   @media (max-width: 768px) {
     .main-logo {
-      width: 10vw;
+      height: 50px;
+      width: 50px;
       float: left;
-      margin-top: 15px;
-      margin-left:20px;
+      margin-top: 12px;
+      margin-left:0px;
     }
   }
 
