@@ -1,10 +1,10 @@
 import "../styles/Home.css";
-import "../components/Blurb/AboutBlurb";
 import React from "react";
-import AboutBlurb from "../components/Blurb/AboutBlurb";
+import About from "./About";
 import ProjectImgs from "../components/ProjectImgs/ProjectImgs";
 import Layout from "../Layouts/Layout";
 import Contact from "./Contact";
+import HomeImg from "../Assets/HomeImg.png";
 
 
 export default function Home() {
@@ -12,21 +12,13 @@ export default function Home() {
     <Layout>
       <div className="container">
         <div className="home-container">
-          <div className="top-img">
+          <div className="main-image">
             <img
-              className="title-img"
-              src="https://i.imgur.com/5M5ljzf.png"
+              className="home-img"
+              src={HomeImg}
             ></img>
           </div>
-          <div className="bottom-image">
-            <img className="home-img" src="https://i.imgur.com/DpTlH5Y.png" />
-          </div>
-          <div className="home-text">
-          <span className="h-text">
-            Creatively Building
-            <p className="h-t2"> Powerful Digital Solutions</p>
-          </span> 
-        </div>
+          
           <div className="home-socials">
             <ul>
               <li className="list-links">
@@ -60,7 +52,7 @@ export default function Home() {
 </div>
         </div>
 
-        <AboutBlurb />
+        {/* <About /> */}
         <ProjectImgs />
         {/* <Contact /> */}
       </div>

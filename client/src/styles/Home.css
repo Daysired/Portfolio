@@ -8,31 +8,22 @@
   /* position: relative; */
 }
 
-.top-img {
- grid-column: 1 / span 5;
- grid-row: 1; 
- margin-top: 35%; 
- z-index: 1; 
- margin-left: 7%;
-}
 
-.bottom-image {
+
+/* .main-image {
  grid-column: 2 / 2;
  grid-row: 1;
-}
+} */
 
 .home-img {
-  height: 48vw ;
-  width: 50vw;
-  margin-top: 13%;
-  margin-left: 43%;
+  height: 38vw ;
+  width: 67vw;
+  margin-top: 12%;
+  margin-left: 19%;
   
 }
 
-.title-img {
-  width: 40vw;
- 
-}
+
 
 .home-socials {
   position: absolute;
@@ -118,15 +109,12 @@ li:hover::before {
 
 
 .home-img {
-  margin-left: 27%;
-  height: 57vw ;
-  width: 57vw;
-  margin-top: 7%;
+  margin-left: 25%;
+  height: 37vw ;
+  width: 67vw;
+  margin-top: 27%;
 }
-.top-img {
-  margin-top: 38%; 
-  margin-left: 0%;
- }
+
 
  .home-text {
   margin-top: 67%;
