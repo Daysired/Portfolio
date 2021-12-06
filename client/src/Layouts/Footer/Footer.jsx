@@ -1,4 +1,4 @@
-import ContactSection from "../ContactSection/ContactSection";
+import ContactSection from "../../components/ContactSection/ContactSection";
 import "./Footer.css";
 
 export default function Footer() {

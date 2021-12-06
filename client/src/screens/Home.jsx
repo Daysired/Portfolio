@@ -3,8 +3,9 @@ import "../components/Blurb/AboutBlurb";
 import React from "react";
 import AboutBlurb from "../components/Blurb/AboutBlurb";
 import ProjectImgs from "../components/ProjectImgs/ProjectImgs";
-import Layout from "../components/Layout";
+import Layout from "../Layouts/Layout";
 import Contact from "./Contact";
+
 
 export default function Home() {
   return (
