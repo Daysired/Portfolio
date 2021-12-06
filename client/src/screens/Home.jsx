@@ -52,7 +52,7 @@ export default function Home() {
 </div>
         </div>
 
-        {/* <About /> */}
+        <About />
         <ProjectImgs />
         {/* <Contact /> */}
       </div>
