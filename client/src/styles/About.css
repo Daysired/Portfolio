@@ -42,7 +42,7 @@
   /* border: 2px solid black; */
   /* grid-column: 2 / -1;
   grid-row: 1; */
-  margin-bottom: 20%;
+  margin-bottom: 8%;
  }
 
  .about-text {
@@ -72,60 +72,6 @@
   color: black;
  }
 
- .languages-title {
-  color: black;
-  text-decoration: bold;
-  margin-left: 50%;
-  margin-top: 6%;
-  margin-bottom: 3%;
-  text-decoration: underline;
-  font-family: "COM4t Fine Regular", sans-serif;
-  font-size: 1.5vw;
-
- }
- 
-
- /* .section-line {
-  background-color:black;
-  height: 1px;
-  width: 16vw;
-  margin: 1vh auto 4vh;
-  margin-top: 0%;
-  margin-bottom: 2%;
-  margin-left: 30%;
- } */
-
- .languages-container {
-  display: grid;
-  grid-template-areas: "1 2 3 4";
-  padding: 2vh 0;
-  grid-column-gap: 2vw;
-  column-gap: 2vw;
-  grid-row-gap: 2vh;
-  row-gap: 2vh;
-  margin-bottom: 54%;
-  margin-left: 24%;
- }
-
-
-.language-div {
-  font-size: 1.5rem;
-  padding: 1vh 1vw 1vh 1vw;
-  align-self: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color:black;
-  font-size: 16px;
-  font-family: "COM4t Fine Regular", sans-serif;
-  font-weight: bold;
-}
-
-.language-icon {
-  padding: 1px;
-  font-size: 1.5rem;
-  color: black;
-}
 
 .btn-stack {
   display: grid;

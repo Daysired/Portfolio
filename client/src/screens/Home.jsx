@@ -5,6 +5,7 @@ import ProjectImgs from "../components/ProjectImgs/ProjectImgs";
 import Layout from "../Layouts/Layout";
 import Contact from "./Contact";
 import HomeImg from "../Assets/HomeImg.png";
+import { Technologies } from "./Technologies";
 
 
 export default function Home() {
@@ -53,6 +54,7 @@ export default function Home() {
         </div>
 
         <About />
+        <Technologies />
         <ProjectImgs />
         {/* <Contact /> */}
       </div>

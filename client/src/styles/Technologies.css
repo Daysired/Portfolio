@@ -1,0 +1,59 @@
+.main-title {
+  color: black;
+  text-decoration: bold;
+  margin-left: 46%;
+  margin-top: 13%;
+  margin-bottom: 2%;
+  text-decoration: underline;
+  font-family: "COM4t Fine Regular", sans-serif;
+  font-size: 2.5vw;
+ }
+
+ .main-text-container {
+  width: 80vw;
+  height: 3vw;
+ }
+
+ .main-title-text {
+  color: black;
+  text-decoration: bold;
+  margin-left: 31%;
+  margin-top: 6%;
+  margin-bottom: 5%;
+  font-family: "COM4t Fine Regular", sans-serif;
+  font-size: 1.5vw;
+ }
+ 
+
+ .languages-container {
+  display: grid;
+  grid-template-areas: "1 2 3 4";
+  padding: 1vh 0;
+  margin-top: 3%;
+  grid-column-gap: 1vw;
+  column-gap: 1vw;
+  grid-row-gap: 1vh;
+  row-gap: 1vh;
+  margin-bottom: 24%;
+  margin-left: 18%;
+  width: 65vw;
+ }
+
+
+.language-div {
+  padding: 4vh 1vw 1vh 1vw;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:black;
+  font-size: 18px;
+  font-family: "COM4t Fine Regular", sans-serif;
+  font-weight: bold;
+}
+
+.language-icon {
+  padding: 1px;
+  font-size: 2.5vw;
+  color: black;
+}
