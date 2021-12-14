@@ -1,12 +1,13 @@
-.main-title {
+.techstack-title {
   color: black;
   text-decoration: bold;
+  text-transform: uppercase;
   margin-left: 46%;
-  margin-top: 13%;
+  /* margin-top: 13%; */
   margin-bottom: 2%;
   text-decoration: underline;
   font-family: "COM4t Fine Regular", sans-serif;
-  font-size: 2.5vw;
+  font-size: 2.3vw;
  }
 
  .main-text-container {
@@ -34,7 +35,7 @@
   column-gap: 1vw;
   grid-row-gap: 1vh;
   row-gap: 1vh;
-  margin-bottom: 24%;
+  margin-bottom: 14%;
   margin-left: 18%;
   width: 65vw;
  }

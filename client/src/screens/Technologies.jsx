@@ -4,7 +4,7 @@ import "../styles/Technologies.css";
 export const Technologies = () => {
   return (
     <div>
-      <h1 className="main-title">Tech Stack</h1>
+      <h1 className="techstack-title">Tech Stack</h1>
       <div className="main-text-container">
         <h4 className="main-title-text"> Over the course of the past year and a half, I have built multiple projects demonstrating my copetency and understanding across different technologies. As a result, I have mastered the
         following languages, frameworks, databases, and cloud services. </h4>

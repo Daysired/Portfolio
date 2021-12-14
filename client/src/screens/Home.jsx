@@ -1,7 +1,7 @@
 import "../styles/Home.css";
 import React from "react";
 import About from "./About";
-import ProjectImgs from "../components/ProjectImgs/ProjectImgs";
+import Projects from "./Projects";
 import Layout from "../Layouts/Layout";
 import Contact from "./Contact";
 import HomeImg from "../Assets/HomeImg.png";
@@ -55,7 +55,7 @@ export default function Home() {
 
         <About />
         <Technologies />
-        <ProjectImgs />
+        <Projects />
         {/* <Contact /> */}
       </div>
     </Layout>

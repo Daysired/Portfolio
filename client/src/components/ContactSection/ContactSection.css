@@ -2,8 +2,12 @@
   display: flex;
   flex-flow: column wrap;
   padding: 2vh 0 2vh 0;
-  color: black;
-  border-top: 1px solid black
+  color: white;
+  border-top: 1px solid yellow
+}
+
+section {
+  background-color: black;
 }
 
 .contact-header {
