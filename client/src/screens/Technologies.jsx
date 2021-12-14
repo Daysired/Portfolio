@@ -18,16 +18,31 @@ export const Technologies = () => {
           <div className="language-div">
             <i className="language-icon devicon-javascript-plain colored" />
             JavaScript
+        </div>
+        
+        <div className="language-div">
+            <i className="language-icon devicon-nodejs-plain colored" />
+            Node JS
           </div>
 
           <div className="language-div">
             <i className="language-icon devicon-css3-plain colored" />
-            CSS + <i className="language-icon devicon-sass-plain colored" /> Sass
+            CSS 
+        </div>
+        
+        <div className="language-div">
+          <i className="language-icon devicon-sass-plain colored" />
+          Sass
           </div>
 
           <div className="language-div">
             <i className="language-icon devicon-react-original colored" />
             React
+        </div>
+
+        <div className="language-div">
+            <i className="language-icon devicon-vuejs-plain colored" />
+            Vue JS
           </div>
 
           <div className="language-div">

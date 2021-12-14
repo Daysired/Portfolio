@@ -2,39 +2,39 @@
   color: black;
   text-decoration: bold;
   text-transform: uppercase;
-  margin-left: 46%;
-  /* margin-top: 13%; */
-  margin-bottom: 2%;
+  margin-left: 45vw;
+  margin-bottom: 1vw;
   text-decoration: underline;
-  font-family: "COM4t Fine Regular", sans-serif;
-  font-size: 2.3vw;
+  font-family: 'Cinzel', serif;
+  font-size: 2vw;
  }
 
  .main-text-container {
-  width: 80vw;
+  width: 73vw;
   height: 3vw;
+  margin-left: 17%;
  }
 
  .main-title-text {
   color: black;
   text-decoration: bold;
-  margin-left: 31%;
-  margin-top: 6%;
-  margin-bottom: 5%;
-  font-family: "COM4t Fine Regular", sans-serif;
-  font-size: 1.5vw;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.1em;
+  font-size: 1.1vw;
  }
  
 
  .languages-container {
   display: grid;
-  grid-template-areas: "1 2 3 4";
+  grid-template-areas: "1 2 3 4 5";
   padding: 1vh 0;
   margin-top: 3%;
   grid-column-gap: 1vw;
   column-gap: 1vw;
   grid-row-gap: 1vh;
-  row-gap: 1vh;
+  row-gap: 2vh;
   margin-bottom: 14%;
   margin-left: 18%;
   width: 65vw;
@@ -42,14 +42,14 @@
 
 
 .language-div {
-  padding: 4vh 1vw 1vh 1vw;
+  padding: 2vh 1vw 1vh 1vw;
   align-self: center;
   display: flex;
   align-items: center;
   justify-content: center;
   color:black;
-  font-size: 18px;
-  font-family: "COM4t Fine Regular", sans-serif;
+  font-size: 1.1vw;
+  font-family: 'Playfair Display', serif;
   font-weight: bold;
 }
 
