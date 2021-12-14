@@ -2,12 +2,11 @@
   color: black;
   text-decoration: bold;
   text-transform: uppercase;
-  margin-left: 46%;
+  margin-left: 46vw;
   margin-bottom: 8%;
   text-decoration: underline;
-  font-family: "COM4t Fine Regular", sans-serif;
-  font-size: 2.3vw;
-  /* margin-top: -53px; */
+  font-family: 'Cinzel', serif;
+  font-size: 2vw;
 }
 
 .project-left {
@@ -34,9 +33,10 @@
   flex-direction: column;
   height: 200px;
   width: 700px;
-  font-family: "COM4t Fine Regular", sans-serif;
+  font-family: 'Playfair Display', serif;
   font-weight: bolder;
-  font-size: 1.3vw;
+  letter-spacing: 0.1em;
+  font-size: 1.1vw;
 }
 
 
@@ -65,18 +65,19 @@
   height: 200px;
   width: 700px;
   float: right;
-  font-family: "COM4t Fine Regular", sans-serif;
+  font-family: 'Playfair Display', serif;
   font-weight: bolder;
-  font-size: 1.3vw;
+  letter-spacing: 0.1em;
+  font-size: 1.1vw;
 }
 
 .project-name {
-  font-weight: bolder;
+  text-decoration: bold;
   text-transform: uppercase;
   margin-bottom: 2%;
   margin-top: 5%;
-  font-family: "COM4t Fine Regular", sans-serif;
-  font-size: 1.8vw;
+  font-family: 'Cinzel', serif;
+  font-size: 1.5vw;
 }
 
 
@@ -99,9 +100,10 @@
   flex-direction: column;
   height: 200px;
   width: 700px;
-  font-family: "COM4t Fine Regular", sans-serif;
+  font-family: 'Playfair Display', serif;
   font-weight: bolder;
-  font-size: 1.3vw;
+  letter-spacing: 0.1em;
+  font-size: 1.1vw;
 }
 
 .project-links {
@@ -125,3 +127,162 @@
   margin-bottom: 20%;
 
 }
+
+
+@media only screen and (min-width: 280px) {
+  .project-img-e {
+    width: 180px;
+    height: 120px;
+  }
+  
+  .everywhen-img {
+    width: 180px;
+    height: 120px;
+  
+  }
+  
+  
+  .project-text-e {
+    margin-left: 7%;
+    height: 100px;
+    width: 290px;
+    font-size: 2.2vw;
+    margin-bottom: 11%;
+  }
+
+  .project-name {
+    margin-bottom: 2%;
+    margin-top: 3%;
+    font-size: 2.8vw;
+  }
+
+  .projects-title {
+    font-size: 3.2vw;
+  }
+
+  .fas.fa-eye {
+    margin: 20px 4px;
+    font-size: 2.8vw;
+  }
+  
+  .fab.fa-github {
+    margin: 20px 36px;
+    font-size: 2.8vw;
+  }
+
+
+  .project-img-i {
+    width: 180px;
+    height: 120px;
+  }
+  
+  .insequence-img {
+    width: 180px;
+    height: 120px;
+  
+  }
+  
+  .project-text-i {
+    margin-right: 7%;
+    height: 100px;
+    width: 290px;
+    font-size: 2.2vw;
+    margin-bottom: 15%;
+  }
+
+  .project-img-hv {
+    width: 180px;
+    height: 120px;
+  }
+  
+  .heroes-img {
+    width: 180px;
+    height: 120px;
+  
+  }
+  
+  .project-text-hv {
+    margin-left: 7%;
+    height: 100px;
+    width: 290px;
+    font-size: 2.2vw;
+    margin-bottom: 15%;
+  }
+
+}
+
+@media (min-width: 768px)  and  (max-width: 1780px) {
+  .project-img-e {
+    width: 300px;
+    height: 200px;
+  }
+  
+  .everywhen-img {
+    width: 300px;
+    height: 200px;
+  
+  }
+  
+  .project-text-e {
+    width: 50vw;
+    height: 10vh;
+    font-size: 1.1vw;
+    margin-bottom: 12%;
+  }
+
+  .project-name {
+    font-size: 1.5vw;
+    margin-top: 10%;
+  }
+
+  .projects-title {
+    font-size: 2vw;
+  }
+
+  .fas.fa-eye {
+    font-size: 1.6vw;
+  }
+  
+  .fab.fa-github {
+    font-size: 1.6vw;
+  }
+
+
+  .project-img-i {
+    width: 300px;
+    height: 200px;
+  }
+  
+  .insequence-img {
+    width: 300px;
+    height: 200px;
+  
+  }
+  
+  .project-text-i {
+    margin-right: 0%;
+    width: 50vw;
+    height: 10vh;
+    font-size: 1.1vw;
+  }
+
+  .project-img-hv {
+    width: 300px;
+    height: 200px;
+  }
+  
+  .heroes-img {
+    width: 300px;
+    height: 200px;
+  
+  }
+  
+  .project-text-hv {
+    width: 50vw;
+    height: 10vh;
+    font-size: 1.1vw;
+  }
+
+}
+
+
