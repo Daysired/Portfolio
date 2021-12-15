@@ -5,7 +5,7 @@ import { faDownload } from '@fortawesome/free-solid-svg-icons'
 
 export default function About() {
   return (
-  
+  <div className="about-screen-container">
     <div className="about-container">
       <div className="about-img-div">
         <img className="about-img" src="https://i.imgur.com/FIbZCZS.png" />
@@ -39,6 +39,6 @@ export default function About() {
        
       </div>
       </div>
-  
+      </div>
   );
 }
