@@ -135,6 +135,7 @@
   .about-screen-container {
     margin-left: -6vw;
     height: 430px;
+    margin-top: 23%;
   }
   .about-text {
     font-size: 2.2vw;
@@ -153,6 +154,7 @@
   .about-screen-container {
     margin-left: -6vw;
     height: 600px;
+    margin-top: 25%;
   }
   .about-text {
     font-size: 1.7vw;

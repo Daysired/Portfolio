@@ -1,66 +1,6 @@
 body {
   overflow-x: hidden !important; 
 }
-/* 
-.home-img {
-  height: 42vw ;
-  width: 78vw;
-  margin-top: 12%;
-  margin-left: 11%;
-  
-}
-
-.home-socials {
-  position: absolute;
-  z-index: 20;
-  top: calc(45vh - 82px);
-  right: 75px;
-  color: currentColor;
-}
-
-.home-socials ul, .home-socials li {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-
-.home-socials a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 40px;
-  font-size: .78rem;
-}
-
-a {
-  position: relative;
-  color: inherit;
-  text-decoration: none;
-}
-
-
-ul {
-  list-style: none;
-  text-align: left;
-}
-
-.list-links {
-  font-size: 2.0em;
-  position: relative;
-  transition: all 0.5s ease-in-out;
-}
-
-li:hover::before {
-  content: "\2022";
-  position: absolute;
-  top: 0px;
-  left: -19px;
-  width: 70px;
-  height: 70px;
-  border-radius: 30%;
-}
-*/
 
 @media only screen and (min-width: 280px) {
 
@@ -74,8 +14,6 @@ li:hover::before {
   margin-left: 1vw;
   height: 260px;
   width: 440px;
-  /* height: 34vh;
-  width: 95vw; */
   margin-top: 27%;
 }
 
@@ -87,7 +25,40 @@ display: none;
 }
 
 
-@media only screen and (min-width: 768px) and (max-width: 1040px) {
+@media only screen and (min-width: 414px) {
+  .home-img {
+    margin-left: 3vw;
+    height: 280px;
+    width: 480px;
+  }
+}
+
+
+@media only screen and (min-width: 540px) {
+  .home-img {
+    margin-left: 5vw;
+    /* height: 280px;
+    width: 480px; */
+  }
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  .home-img {
+      height: 340px;
+      width: 625px;
+      margin-top: 35%;
+      margin-left: 9vw;
+  }
+
+  .home-socials {
+    display: none;
+    }
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1030px) {
   .home-socials {
     display: none;
     } 
@@ -95,7 +66,7 @@ display: none;
       height: 45vw ;
       width: 85vw;
       margin-top: 35%;
-      margin-left: 14vw;
+      margin-left: 9vw;
       
     }
 
@@ -115,7 +86,7 @@ display: none;
   .home-img {
     height: 40vw ;
     width: 75vw;
-    margin-top: 35%;
+    margin-top: 28%;
     margin-left: 10vw;
     
   }
