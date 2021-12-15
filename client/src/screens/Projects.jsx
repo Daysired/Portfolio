@@ -6,7 +6,7 @@ import HeroesVsVillains from "../Assets/HeroesVsVillains.png";
 
 export default function Projects() {
   return (
-    <div>
+    <div className="projects-container">
       <h1 className="projects-title">Projects</h1>
       <div className="project-left">
         <div className="project-img-e">

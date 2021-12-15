@@ -10,6 +10,10 @@
     font-family: 'Cinzel', serif;
     font-size: 3.2vw;
    }
+
+   .techstack-container {
+    margin-left: 12vw;
+   }
   
    .main-text-container {
     width: 73vw;
