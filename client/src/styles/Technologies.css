@@ -77,6 +77,14 @@
   .main-text-container {
     width: 108vw;
    }
+
+   .languages-container {
+    margin-left: 9%;
+  }
+
+   .language-icon {
+    font-size: 6vw;
+  }
 }
 
 
@@ -91,7 +99,7 @@
 
 
   .languages-container {
-    margin-left: 0%;
+    margin-left: 2%;
     column-gap: 2vw;
     margin-top: 22%;
   }
@@ -103,6 +111,10 @@
    .main-title-text {
     font-size: 3vw ;
    }
+
+   .language-icon {
+    font-size: 6.5vw;
+  }
 
 
 }
@@ -121,10 +133,11 @@
     column-gap: 2vw;
     row-gap: 1vh;
     margin-top: 20%;
+    margin-left: 3%;
   }
 
   .language-icon {
-    font-size: 7.5vw;
+    font-size: 6vw;
   }
 
 }
@@ -157,7 +170,7 @@
 
 
   .language-icon {
-    font-size: 7vw;
+    font-size: 6vw;
   }
 
 }
@@ -176,7 +189,7 @@
   }
 
   .main-title-text {
-    font-size: 2.8vw;
+    font-size: 2.5vw;
   }
 
    .language-div {
@@ -184,8 +197,12 @@
   }
 
   .languages-container {
-    margin-top: 18%;
+    margin-top: 16%;
    }
+
+   .language-icon {
+    font-size: 6vw;
+  }
    
 
 
@@ -220,20 +237,25 @@
 
   .languages-container {
     margin-top: 12%;
+    margin-left: 14%;
    }
+
+   .language-icon {
+    font-size: 5vw;
+  }
 
 }
 
 @media only screen and (min-width: 768px) {
   .techstack-container {
-    margin-left: 7vw;
+    margin-left: 0vw;
     margin-top: -30%;
   }
   .main-title-text {
     font-size: 1.7vw;
    }
    .techstack-title {
-    margin-left: 39vw;
+    margin-left: 42vw;
     font-size: 2.7vw;
   }
   .language-div {
@@ -245,6 +267,7 @@
   .languages-container {
     grid-template-areas: "1 2 3 4 5";
     margin-top: 6%;
+    margin-left: 12%;
    }
 
 }
