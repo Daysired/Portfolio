@@ -98,7 +98,7 @@
 
 @media only screen and (min-width: 375px) {
   .about-screen-container {
-    margin-left: 4vw;
+    margin-left: -3vw;
   }
 }
 
